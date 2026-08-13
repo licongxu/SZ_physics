@@ -317,6 +317,15 @@ y
 =
 \frac{\sigma_T}{m_e c^2}\int dl\, n_e k_B T_e.
 $$
+The same result in the observational temperature convention is
+$$
+\frac{\Delta T}{T_{\mathrm{CMB}}}
+=
+y\,g(x),
+\qquad
+g(x)=\frac{x}{2}\coth\frac{x}{2}-2,
+$$
+with the familiar null at $x_0\simeq 3.83$ ($\nu_0\simeq 217\,\mathrm{GHz}$). This $g(x)$ is what cluster-pipeline papers plot; the $\Delta n$ form above is the same physics in occupation-number units.
 So
 $$
 \mathrm{tSZ}\quad\longleftrightarrow\quad\int n_e T_e\, dl

@@ -52,6 +52,8 @@ Not exhaustive. Landmark and 2019–2026 papers that define each probe. Topic no
 
 ## kSZ
 - **Hand et al. 2012**, PRL — first pairwise kSZ (ACT+SDSS) ([kSZ literature](literature/kSZ%20literature.md))
+- **Ostriker & Vishniac 1986; Vishniac 1987** — OV effect (linear kSZ power)
+- Hu 2000; Zhang, Pen & Trac 2004 — nonlinear late-time kSZ
 - Planck pairwise / $v$–$T$ correlation
 - Soergel et al. — DES+SPT pairwise
 - Schaan, Amodeo, Calafut, Battaglia, … — ACT+BOSS stacks (CGM)
@@ -68,6 +70,18 @@ Not exhaustive. Landmark and 2019–2026 papers that define each probe. Topic no
 - Remazeilles et al. 2025 — Planck $\langle T_e\rangle\simeq 5\,\mathrm{keV}$ [arXiv:2410.02488](https://arxiv.org/abs/2410.02488)
 - **Coulton et al. 2026**, PRD — ACT+Planck $\langle T_e\rangle=8.5\pm 2.4\,\mathrm{keV}$ [arXiv:2410.19046](https://arxiv.org/abs/2410.19046)
 - Kay et al. 2024 — FLAMINGO $T_y$ HSE bias (*Hydrostatic Bias*)
+
+## Distances (historical)
+- Silk & White; Birkinshaw; Reese+2002; Bonamente+2006 — SZ + X-ray angular diameter distance
+
+## $T_{\mathrm{CMB}}(z)$ — adiabatic expansion test
+- Battistelli+2002; de Petris+2007; **Luzzi+2009**; Hurier+2014; Khatri & Sunyaev 2012 ([SZ cosmology observables](literature/SZ%20cosmology%20observables.md))
+
+## SZ–CIB correlation / foregrounds
+- Addison+2012; Dolag et al.; Manz et al.; Planck XXX
+
+## Moving lens (transverse velocity)
+- Molnar & Birkinshaw 2003; Biernacka 2014 ([rkSZ and higher kinematic](literature/rkSZ%20and%20higher%20kinematic.md))
 
 ## Polarised SZ
 - Kamionkowski & Loeb 1997

@@ -20,6 +20,14 @@ Same SED as late-time kSZ (blackbody), but the electrons are in **patchy reioniz
 
 Inhomogeneous ionization → a kSZ power spectrum “bump” at $\ell\sim 2000$–$4000$ (Gruzinov & Hu; Knox, Scoccimarro, Dodelson; McQuinn+; Zahn+; Battaglia+; Park+). Amplitude scales with the duration of reionization; shape with bubble size.
 
+This is one of three components of the total kSZ power spectrum (see [kSZ literature](kSZ%20literature.md#the-ksz-power-spectrum--three-components)):
+
+$$
+C_\ell^{\mathrm{kSZ}} = \underbrace{C_\ell^{\mathrm{OV}}}_{\text{linear, post-recomb}} + \underbrace{C_\ell^{\mathrm{patchy}}}_{\text{reionization}} + \underbrace{C_\ell^{\mathrm{late}}}_{\text{nonlinear, }z\lesssim 2}.
+$$
+
+The patchy term carries the reionization science. The **Ostriker–Vishniac** (OV) term is the linear floor from post-recombination ionized gas; the late-time nonlinear term comes from low-$z$ halos and filaments. All three share the **same blackbody SED**, so they are separated only by $\ell$-dependence, non-Gaussianity, and cross-correlations — never by frequency.
+
 Observational problem: **late-time (homogeneous + patchy-group) kSZ** has the same spectrum. Separation uses:
 - $\ell$-dependence (reionization is smoother, late-time more non-Gaussian / 4-point)
 - cross-correlation with 21cm, Lyman-$\alpha$ emitters, galaxies (late-time)
