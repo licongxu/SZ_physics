@@ -31,7 +31,9 @@ kSZ is especially powerful: it does **not** need the gas to be hot, only ionized
 - Tanimura et al. (2019, MNRAS): Planck $y$ stacked on SDSS LRG pairs, residual filament **$y=(1.31\pm 0.25)\times 10^{-8}$ at $5.3\sigma$**.
 - de Graaff et al. (2019): similar Planck filament stacks.
 - Tanimura / de Graaff follow-ups; comparison to BAHAMAS.
-- Cluster–cluster bridges in Planck (e.g. A399–A401) — rarer, individually claimed.
+- Cluster–cluster bridges: Planck A399–A401; **Hincks et al. (2022)**, MNRAS — ACT+Planck+MUSTANG-2, cluster-only model ruled out at **$>5\sigma$**; **Gill et al. (2026)** [arXiv:2510.18153](https://arxiv.org/abs/2510.18153) — joint multifrequency tSZ+kSZ+rSZ fit, filament optical depth **$8.5\sigma$**, cluster $v_\parallel$ uncertainties $\lesssim 600\,\mathrm{km\,s^{-1}}$.
+- Stacked tSZ + CMB lensing on $\sim 30{,}700$ SDSS filaments [arXiv:2507.08561](https://arxiv.org/abs/2507.08561): tSZ **$7.82\sigma$**, lensing **$7.78\sigma$**, $T_e\sim 2.7\times 10^6\,\mathrm{K}$.
+- X-ray counterpart (not SZ, but the same gas): Tanimura et al. eFEDS $3.8\sigma$; Zhang et al. (2024) eRASS:4 stacked filaments **$9.0\sigma$**.
 
 ### Groups / CGM (tSZ + kSZ stacks)
 - Planck tSZ × locally brightest galaxies (Planck 2013/2016).
@@ -49,7 +51,7 @@ BAHAMAS, IllustrisTNG, EAGLE, **FLAMINGO** (McCarthy+2024 kSZ + tSZ–WL). The l
 
 ## Detection significance
 
-Filament tSZ: **stacked, $\sim 5\sigma$**. CGM kSZ: **high S/N (10$\sigma$ class)**. Individual WHIM filaments: generally **no**.
+Filament tSZ: **stacked, $5$–$8\sigma$**. A399–A401 bridge: **individual, $>5\sigma$ (Hincks+2022), $\tau$ at $8.5\sigma$ (Gill+2026)**. CGM kSZ: **high S/N (10$\sigma$ class)**. Typical isolated WHIM filaments: still stacking only.
 
 **Open:** photo-$z$ dilution; two-halo term vs bound CGM; consistent feedback story from kSZ, tSZ, kSZ×lensing, and X-ray.
 

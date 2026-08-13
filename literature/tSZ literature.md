@@ -27,7 +27,7 @@ $y=\sigma_T/(m_e c^2)\int P_e\,dl$. Typical massive cluster: $\tau\sim 10^{-2}$,
 ## What people have done
 
 ### Theory
-Kompaneets (1956) diffusion equation → $y$-distortion. Relativistic corrections → [rSZ literature](rSZ%20literature.md). Pressure profiles: $\beta$-model, then Arnaud et al. (2010) GNFW “universal” profile (*The Universal Pressure Profile and A10*). Halo-model $C_\ell^{yy}$: Komatsu & Seljak, later CLASS_SZ (Bolliet+).
+Kompaneets (1956) diffusion equation → $y$-distortion. Relativistic corrections → [rSZ literature](rSZ%20literature.md). Pressure profiles: $\beta$-model, then Arnaud et al. (2010) GNFW “universal” profile (*The Universal Pressure Profile and A10*), **Battaglia et al. (2012)** AGN-feedback GNFW (the other standard input to halo-model $C_\ell^{yy}$). Halo-model $C_\ell^{yy}$: Komatsu & Seljak, later CLASS_SZ (Bolliet+).
 
 ### Early detections (1970s–2000s)
 Single-dish decrement at $\sim 15\,\mathrm{GHz}$ (Pariiskii, Birkinshaw, OVRO). Interferometers: Ryle, OVRO/BIMA, SZA/CARMA, AMI. First increment: PRONAOS on A2163 (Lamarre+1998); SCUBA imaging (Komatsu+1999). Photometric arrays: SuZIE, Diabolo, Bolocam, APEX-SZ.
@@ -43,7 +43,11 @@ Cluster number counts + $Y$–$M$ + mass calibration (WL, VDis, X-ray). Planck 2
 Power spectrum $C_\ell^{yy}$: Komatsu & Seljak prediction; Planck $y$-maps (2014, 2016, MILCA/NILC); ACT/SPT high-$\ell$ template amplitudes. Efstathiou & McCarthy (2025) reconstruct the shape from CMB temperature spectra (CIB-robust) and find a **shallower, lower** spectrum than fiducial FLAMINGO $\Lambda$CDM. SPT-3G + Herschel-SPIRE (2026): full-shape $C_\ell^{yy}$ at **$9.3\sigma$**, $\ell\sim 500$–$5000$. SPT-3G D1 Compton-$y$ maps (2026).
 
 ### Astrophysics
-Resolved pressure: MUSTANG/MUSTANG-2, NIKA/NIKA2, ALMA (El Gordo shock, RX J1347). Stacked profiles vs A10. AGN feedback in groups (tSZ stacked on galaxies). See [Resolved SZ astrophysics](Resolved%20SZ%20astrophysics.md), [WHIM CGM and cosmic web](WHIM%20CGM%20and%20cosmic%20web.md).
+Resolved pressure: MUSTANG/MUSTANG-2, NIKA/NIKA2 (LPSZ: 38 clusters at $0.5<z<0.9$), ALMA (El Gordo shock, RX J1347, **proto-clusters**). Stacked profiles vs A10 / Battaglia+2012. AGN feedback in groups (tSZ stacked on galaxies). See [Resolved SZ astrophysics](Resolved%20SZ%20astrophysics.md), [WHIM CGM and cosmic web](WHIM%20CGM%20and%20cosmic%20web.md).
+
+**Proto-clusters:** Di Mascolo+2023 Spiderweb $z=2.16$ ($\sim 6\sigma$, *under*-pressured); Zhou+ SPT2349−56 $z=4.3$ ($8.4\sigma$, *over*-pressured vs self-similar $Y$–$M$). Same operator, different astrophysics — ICM assembly, not cluster cosmology.
+
+Sky-averaged $\langle y\rangle$ (FIRAS / PIXIE) is the monopole of this same $y$; see [Global Compton y and spectral distortions](Global%20Compton%20y%20and%20spectral%20distortions.md).
 
 ### Simulations
 BAHAMAS, IllustrisTNG, Magneticum, **FLAMINGO** (*FLAMINGO Overview*, McCarthy+2024, Yang+2026 mocks). tSZ is the standard test of ICM pressure and feedback.

@@ -48,8 +48,13 @@ Status as of mid-2026. “Detected” means a published measurement of *that* sp
 | **multiple scattering** | $\tau^2$, $y\tau$ | **Not detected** | $\sim 0.1\%$ of tSZ | |
 | **observer-motion SZ** | boost of SZ | **Not a separate detection** | dipole modulation of counts | must be modelled |
 | **patchy kSZ** (EoR) | $n_e v$ at $z\sim 6$–$10$ | **Power seen, origin mixed** | high-$\ell$ kSZ $C_\ell$ | late-time vs EoR split is model-dependent |
-| **WHIM / filaments** | $n_e T_e$ (warm) | **Stacked** | Tanimura+2019 **$5.3\sigma$** Planck filaments | not individual filaments |
+| **WHIM / filaments** | $n_e T_e$ (warm) | **Stacked** | Tanimura+2019 **$5.3\sigma$**; tSZ+lensing **$7.8\sigma$** (2025) | not typical individual filaments |
 | **CGM / missing baryons** | $n_e$, $n_e T_e$ | **Stacked** | kSZ + tSZ around galaxies | gas more extended than DM |
+| **proto-cluster tSZ** | $n_e T_e$ at $z\sim 2$–$4$ | **A few objects** | Spiderweb $z=2.16$ ($\sim 6\sigma$); SPT2349−56 $z=4.3$ ($8.4\sigma$) | ICM assembly, not survey science |
+| **mean $\langle y\rangle$** | sky-averaged $P_e$ | **Upper limit** | FIRAS; 2026 reanalysis $\langle y\rangle=(1.2\pm 2.0)\times 10^{-6}$ | not a $y$-map detection |
+| **moving lens** | $\nabla_\perp\Psi\cdot v_\perp$ | **Claimed $4.8\sigma$** | ACT DR6 × DESI LS (2026 preprint) | **gravitational**, not Compton SZ |
+| **kSZ projected-field** | $T\times\delta_g\times\delta_g$ | **Detected** | Hill+2016 Planck+WISE **$3.8$–$4.5\sigma$** | no spec-$z$ needed |
+| **kSZ “dark flow”** | Gpc bulk $v$ | **Ruled out** | Planck Int. XIII: dipole $<254\,\mathrm{km\,s^{-1}}$ (95% CL) | Kashlinsky claim not confirmed |
 
 ---
 
@@ -73,12 +78,13 @@ Each cell $\beta^m\theta_e^k \leftrightarrow \int n_e v^m T_e^k P_\ell(\mu)\,dl$
 
 These are still SZ, but they are not a single $(m,k)$ Maxwellian cell.
 
-- [Non-thermal SZ literature](literature/Non-thermal%20SZ%20literature.md) — power-law / cosmic-ray electrons, AGN bubbles
+- [Non-thermal SZ literature](literature/Non-thermal%20SZ%20literature.md) — power-law / cosmic-ray electrons, AGN bubbles; anisotropic $f(p)$
 - [Multiple scattering and observer motion](literature/Multiple%20scattering%20and%20observer%20motion.md) — $\tau^2$ and Solar-System boost
-- [Patchy kSZ and reionization](literature/Patchy%20kSZ%20and%20reionization.md) — ionized bubbles at high $z$
-- [WHIM CGM and cosmic web](literature/WHIM%20CGM%20and%20cosmic%20web.md) — groups, filaments, missing baryons
-- [Resolved SZ astrophysics](literature/Resolved%20SZ%20astrophysics.md) — shocks, turbulence, mergers, MACS J0717
-- [SZ cosmology observables](literature/SZ%20cosmology%20observables.md) — cluster counts, $C_\ell^{yy}$, $Y$–$M$, cross-spectra
+- [Patchy kSZ and reionization](literature/Patchy%20kSZ%20and%20reionization.md) — ionized bubbles at high $z$; OV vs patchy vs late-time
+- [WHIM CGM and cosmic web](literature/WHIM%20CGM%20and%20cosmic%20web.md) — groups, filaments, missing baryons; A399–A401
+- [Resolved SZ astrophysics](literature/Resolved%20SZ%20astrophysics.md) — shocks, turbulence, mergers, MACS J0717, **proto-clusters**, NIKA2 LPSZ
+- [SZ cosmology observables](literature/SZ%20cosmology%20observables.md) — cluster counts, $C_\ell^{yy}$, $Y$–$M$, $T_{\mathrm{CMB}}(z)$, CIB
+- [Global Compton y and spectral distortions](literature/Global%20Compton%20y%20and%20spectral%20distortions.md) — monopole $\langle y\rangle$, FIRAS, PIXIE; not a $y$-map
 
 Theory machinery that organises all of the above: [Unified SZ Derivation](Unified%20SZ%20Derivation.md) · Chluba et al. 2013 moments · SZpack · Hoey, Long & Chluba 2026 boost operator.
 
@@ -109,6 +115,9 @@ The interesting PhD-level gaps are **not** “detect tSZ”. They are:
 - ntSZ in AGN bubbles with submm spectroscopy
 - Late-time vs patchy-reionization split of $C_\ell^{\mathrm{kSZ}}$
 - Feedback: kSZ says gas is more extended than TNG-like models; tSZ $C_\ell$ is low vs fiducial FLAMINGO — same physics?
+- Proto-cluster ICM: Spiderweb is *under*-pressured vs virial expectations; SPT2349−56 at $z=4.3$ is *over*-pressured — simulations do not yet do both
+- Mean $\langle y\rangle$: FIRAS still an upper limit; 2026 reanalysis is approaching Hill+2015’s prediction
+- Moving lens vs kSZ: claimed $4.8\sigma$ transverse-velocity detection is gravitational, not a Compton cell
 
 ---
 
@@ -124,4 +133,12 @@ The interesting PhD-level gaps are **not** “detect tSZ”. They are:
 
 ---
 
-*Census compiled 2026-08-13. Detection significances are from the cited papers, not a meta-analysis.*
+## Literature search (2026-08-13)
+
+Mode: lit-review against this vault. Databases: web + arXiv abs pages (API SSL failed; IDs checked on `arxiv.org/abs/`). Inclusion: named SZ physics or landmark papers missing from the census, with a verifiable bibliographic record.
+
+Added after that search: monopole $\langle y\rangle$; proto-cluster tSZ (Spiderweb, SPT2349−56); moving lens as a *gravitational* secondary (and a 2026 claimed detection); kSZ dark-flow vs Planck; projected-field kSZ S/N; A399–A401 and newer filament stacks; $T_{\mathrm{CMB}}(z)$ ACT/SPT; Lee & Chluba 2024 anisotropic kernels; NIKA2 LPSZ; Battaglia 2012 profile.
+
+---
+
+*Census compiled 2026-08-13, updated after an online literature pass the same day. Detection significances are from the cited papers, not a meta-analysis.*

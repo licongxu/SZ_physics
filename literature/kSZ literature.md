@@ -46,7 +46,7 @@ Four estimator families (all still in use):
 | --- | --- | --- |
 | **Pairwise** | approaching pairs: increment + decrement | Hand+2012 ACT+SDSS (**first detection**) |
 | **Velocity-weighted stack** | reconstruct $v_\parallel$ from galaxies (continuity), stack $\Delta T\times v$ | Schaan+; ACT+DESI **$13\sigma$** |
-| **Projected-field / bispectrum** | $T\times \delta_g\times \delta_g$ without per-object $v$ | Hill, Ferraro, Smith, … |
+| **Projected-field / bispectrum** | $T\times \delta_g\times \delta_g$ without per-object $v$ | Hill, Ferraro, Smith, … **$3.8$–$4.5\sigma$** (Planck+WISE, 2016) |
 | **Quadratic velocity reconstruction** | reconstruct large-scale $v$ from $T$ and $\delta_g$ | Deutsch/Cayuso/Johnson; ACT DR6 **$3.8\sigma$** |
 
 Plus **resolved** kSZ in mergers: only **MACS J0717.5+3745** (Mroczkowski+2012 hint; Sayers+2013 **$4.2\sigma$** on subcluster B, $v_z=+3450\pm 900\,\mathrm{km\,s^{-1}}$; Adam+2017 NIKA **first resolved kSZ map**, dipole $-5.1\sigma$ / $+3.4\sigma$). Still the only individual cluster with a published kSZ detection (PITSZI 2025 restates this).
@@ -61,6 +61,11 @@ Plus **resolved** kSZ in mergers: only **MACS J0717.5+3745** (Mroczkowski+2012 h
 - **Pairwise DESI DR1 + ACT DR6 + Planck (2025)**: **$9.3\sigma$**, 913k LRGs — highest-significance *pairwise* kSZ
 - ACT DR6 kSZ velocity reconstruction × BOSS $v$: **$3.8\sigma$** (JCAP 2025)
 - DESI DR2 + ACT DR6 precision kSZ vs mass and $z$ (2026, arXiv:2604.19744)
+- **Hill, Ferraro et al. (2016)**, PRL 117, 051301 — first **projected-field** kSZ, Planck+WMAP+WISE, **$3.8$–$4.5\sigma$**, no spectroscopic redshifts
+- Schaan et al. (2021); Amodeo et al. (2021) — ACT+BOSS velocity-weighted stacks: joint $n_e(r)$ (kSZ) and $P_e(r)$ (tSZ) around LRGs
+
+### The “dark flow” that did not survive
+Kashlinsky, Atrio-Barandela et al. (2008, 2010) claimed a $\sim 800$–$1000\,\mathrm{km\,s^{-1}}$ bulk flow on $\gtrsim 800\,\mathrm{Mpc}$ scales from WMAP kSZ. Independent analyses (Keisler 2009; Osborne et al. 2011) disputed it. **Planck Collaboration Int. XIII (2014)** measured a cluster velocity monopole $72\pm 60\,\mathrm{km\,s^{-1}}$ and a dipole **$<254\,\mathrm{km\,s^{-1}}$ (95% CL)** in the CMB frame — consistent with $\Lambda$CDM, not a Gpc-scale dark flow. Pairwise kSZ (Hand+2012 onward) is a *different* statistic and is not that claim.
 
 ### Theory of the kSZ power spectrum
 - Ostriker & Vishniac (1986); Vishniac (1987) — **OV effect**, the linear post-recombination contribution

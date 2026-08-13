@@ -42,7 +42,7 @@ $$
 $$
 The monopole piece looks Kompaneets-like (can leak into tSZ/rSZ at the null). The quadrupole is a distinct anisotropy.
 
-A transverse bulk velocity also produces an apparent positional shift of the cluster — the **moving-lens effect** (Molnar & Birkinshaw 2003; Biernacka 2014) — the gravitational/relativistic counterpart of the spectral $\beta^2$ quadrupole. It is a lensing-like deflection $\propto v_\perp/c$, distinct from the spectral distortion, and forecast-relevant for SO/CMB-S4.
+Do **not** confuse this Compton $\beta^2$ quadrupole with the **moving-lens effect**. Moving lens is gravitational (a nonlinear ISW from $\nabla_\perp\Psi\cdot v_\perp$; Birkinshaw & Gull 1983; Hotinli et al. 2019 PRL). It is **not** Thomson scattering and is **not** a $(\theta_e,\beta)$ Compton cell. See [SZ cosmology observables](../SZ%20cosmology%20observables.md#moving-lens--transverse-velocity-not-compton).
 
 Nozawa+1998 already argued $\mathcal{O}(\beta^2)$ is “very small and can be safely neglected” for typical clusters. Forecasts: Lee/Chluba-style and [Forecasts and Simulations for Relativistic Corrections (arXiv:2504.18637)](https://arxiv.org/abs/2504.18637).
 

@@ -52,6 +52,7 @@ flowchart TB
     whim["WHIM / CGM"]
     res["Resolved SZ"]
     cosmo["Cosmology observables"]
+    gy["mean Compton y"]
   end
 
   Map --> tSZ
@@ -64,6 +65,7 @@ flowchart TB
   tSZ --> res
   kSZ --> whim
   kSZ --> patchy
+  tSZ --> gy
 ```
 
 | Note | File |
@@ -83,6 +85,7 @@ flowchart TB
 | WHIM / CGM | [WHIM CGM and cosmic web](literature/WHIM%20CGM%20and%20cosmic%20web.md) |
 | Resolved imaging | [Resolved SZ astrophysics](literature/Resolved%20SZ%20astrophysics.md) |
 | Cosmology | [SZ cosmology observables](literature/SZ%20cosmology%20observables.md) |
+| Mean $\langle y\rangle$ | [Global Compton y and spectral distortions](literature/Global%20Compton%20y%20and%20spectral%20distortions.md) |
 
 ---
 

@@ -688,9 +688,11 @@ Keep these in view while reviewing the derivation.
 2. **Thomson limit.** Recoil $\propto h\nu/m_e c^2$ is dropped. That is excellent for CMB photons; it is not a statement about electron relativity.
 3. **Unpolarized incoming radiation** in the Hoey (2026) all-orders formula. Polarization is an extension, not a different collision term.
 4. **Lab frame = CMB rest frame.** Observer motion (Chluba, Hütsi & Sunyaev 2005) is another boost.
-5. **Maxwellian electrons** in the cloud frame. Non-thermal tails change the thermal operators $\hat{\mathcal{S}}^{\mathrm{th}}_{\ell}$.
+5. **Maxwellian electrons** in the cloud frame. Non-thermal tails change the thermal operators $\hat{\mathcal{S}}^{\mathrm{th}}_{\ell}$. Anisotropic $f_e$ (jets, magnetic fields) is a separate kernel (Lee & Chluba 2024), not a $(\theta_e,\beta)$ cell.
 6. **Constant $\beta_{\mathrm{p}}$ along the LOS** in the operator derivation. Spatially varying velocity is restored by integrating $\mathcal{M}_{m\ell}^{(k)}$ along the ray.
 7. **$\theta_e$ series is asymptotic.** High-$x$ / high-$T_e$ needs the exact operator or SZpack, not a truncated $Y_k$.
+8. **Maps vs monopole.** Cluster $y$-maps are zero-mean anisotropies. The sky-averaged $\langle y\rangle$ is the same operator but needs absolute spectrophotometry (FIRAS / PIXIE); see [Global Compton y and spectral distortions](literature/Global%20Compton%20y%20and%20spectral%20distortions.md).
+9. **Moving lens is not SZ.** Transverse-velocity dipoles from $\nabla_\perp\Psi\cdot v_\perp$ are gravitational (Birkinshaw & Gull 1983), not Compton. Do not file them under $\beta^2$-SZ.
 
 ---
 
