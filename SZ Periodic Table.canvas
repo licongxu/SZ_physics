@@ -1,0 +1,35 @@
+{
+	"nodes":[
+		{"id":"hub","type":"file","file":"SZ Literature Map.md","x":40,"y":-520,"width":420,"height":80},
+		{"id":"deriv","type":"file","file":"Unified SZ Derivation.md","x":500,"y":-520,"width":400,"height":80},
+		{"id":"papers","type":"file","file":"SZ Paper Index.md","x":940,"y":-520,"width":320,"height":80},
+		{"id":"label-table","type":"text","text":"## Periodic table (Maxwellian Compton cells)\nRows = beta^m, columns = theta_e^k.","x":40,"y":-380,"width":520,"height":100},
+		{"id":"zero","type":"text","text":"**beta^0 theta_e^0**\nCold static electrons\n**no distortion**","x":40,"y":-200,"width":220,"height":140},
+		{"id":"tsz","type":"file","file":"literature/tSZ literature.md","x":300,"y":-200,"width":280,"height":140},
+		{"id":"rsz","type":"file","file":"literature/rSZ literature.md","x":620,"y":-200,"width":280,"height":140},
+		{"id":"ksz","type":"file","file":"literature/kSZ literature.md","x":40,"y":0,"width":280,"height":140},
+		{"id":"rksz","type":"file","file":"literature/rkSZ and higher kinematic.md","x":360,"y":0,"width":360,"height":140},
+		{"id":"pol","type":"file","file":"literature/Polarized SZ literature.md","x":780,"y":0,"width":300,"height":140},
+		{"id":"label-beyond","type":"text","text":"## Beyond the Maxwellian table","x":40,"y":200,"width":400,"height":60},
+		{"id":"ntsz","type":"file","file":"literature/Non-thermal SZ literature.md","x":40,"y":300,"width":280,"height":120},
+		{"id":"mult","type":"file","file":"literature/Multiple scattering and observer motion.md","x":360,"y":300,"width":360,"height":120},
+		{"id":"patchy","type":"file","file":"literature/Patchy kSZ and reionization.md","x":760,"y":300,"width":320,"height":120},
+		{"id":"whim","type":"file","file":"literature/WHIM CGM and cosmic web.md","x":40,"y":480,"width":300,"height":120},
+		{"id":"res","type":"file","file":"literature/Resolved SZ astrophysics.md","x":380,"y":480,"width":300,"height":120},
+		{"id":"cosmo","type":"file","file":"literature/SZ cosmology observables.md","x":720,"y":480,"width":320,"height":120},
+		{"id":"dash","type":"text","text":"## Detection snapshot (mid-2026)\n- **tSZ:** mature (Planck 1203 confirmed; ACT/SPT thousands; C_ell^yy 9.3σ SPT-3G)\n- **kSZ:** pairwise 9.3σ; stack 13σ; **one** resolved cluster (MACS J0717)\n- **rSZ:** stacked T_e few-σ (ACT 8.5±2.4 keV); systematics ≈ stats\n- **rkSZ, β², β³, pSZ, kpSZ, ntSZ, multiple scattering:** not detected\n- **filaments:** stacked tSZ 5.3σ (Tanimura+2019)\n- **patchy kSZ:** high-ℓ power seen; EoR vs late-time split open","x":40,"y":660,"width":1000,"height":220}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"hub","fromSide":"bottom","toNode":"tsz","toSide":"top"},
+		{"id":"e2","fromNode":"hub","fromSide":"bottom","toNode":"ksz","toSide":"top"},
+		{"id":"e3","fromNode":"deriv","fromSide":"bottom","toNode":"rksz","toSide":"top"},
+		{"id":"e4","fromNode":"tsz","fromSide":"right","toNode":"rsz","toSide":"left"},
+		{"id":"e5","fromNode":"ksz","fromSide":"right","toNode":"rksz","toSide":"left"},
+		{"id":"e6","fromNode":"rksz","fromSide":"right","toNode":"pol","toSide":"left"},
+		{"id":"e7","fromNode":"tsz","fromSide":"bottom","toNode":"cosmo","toSide":"top"},
+		{"id":"e8","fromNode":"ksz","fromSide":"bottom","toNode":"whim","toSide":"top"},
+		{"id":"e9","fromNode":"ksz","fromSide":"bottom","toNode":"patchy","toSide":"top"},
+		{"id":"e11","fromNode":"tsz","fromSide":"bottom","toNode":"res","toSide":"top"},
+		{"id":"e12","fromNode":"papers","fromSide":"bottom","toNode":"pol","toSide":"top"}
+	]
+}
