@@ -18,7 +18,7 @@ cssclasses:
 
 **Related notes:** [SZ Literature Map](SZ%20Literature%20Map.md) · [SZ Paper Index](SZ%20Paper%20Index.md) · *The Physics of tSZ* · *Compton Y parameter and self-similarity* · *The Universal Pressure Profile and A10* · *Pressure Profiles and tSZ PS*
 
-tSZ, kSZ, rSZ, rkSZ, and $\beta^2$-SZ are **not** different scattering processes. They are different orders of the **same** Thomson/Compton collision operator, expanded in thermal motion $\theta_e$ and coherent bulk motion $\beta$.
+tSZ, kSZ, rSZ, rkSZ, and $`\beta^2`$-SZ are **not** different scattering processes. They are different orders of the **same** Thomson/Compton collision operator, expanded in thermal motion $`\theta_e`$ and coherent bulk motion $`\beta`$.
 
 The 2026 boost-operator papers make this factorization explicit: **thermal-average in the cluster rest frame, then boost back to the CMB frame**.
 
@@ -40,19 +40,19 @@ $$
 (m,k)=(0,0)\ \text{vanishes}.
 $$
 
-Each $(m,k)$ term is one named SZ effect, and each maps onto a line-of-sight moment of the electron phase-space distribution
+Each $`(m,k)`$ term is one named SZ effect, and each maps onto a line-of-sight moment of the electron phase-space distribution
 $$
 \int n_e\, T_e^{k}\, v^{m}\, P_{\ell}(\mu)\, dl.
 $$
 
 > **Important:** Cold, static electrons do nothing
-> A cold electron at rest ($\theta_e=0$, $\beta=0$) Thomson-scattering an isotropic blackbody leaves the radiation field unchanged. That is why the $(0,0)$ cell is identically zero, and why tSZ starts at $\theta_e$, not at $\sqrt{\theta_e}$.
+> A cold electron at rest ($`\theta_e=0`$, $`\beta=0`$) Thomson-scattering an isotropic blackbody leaves the radiation field unchanged. That is why the $`(0,0)`$ cell is identically zero, and why tSZ starts at $`\theta_e`$, not at $`\sqrt{\theta_e}`$.
 
 ---
 
 ## 1. Only one process: Thomson scattering
 
-A CMB photon $(\nu_i,\hat{\mathbf{n}}_i)$ hits an electron with velocity $\boldsymbol{\beta}_e=\mathbf{v}_e/c$.
+A CMB photon $`(\nu_i,\hat{\mathbf{n}}_i)`$ hits an electron with velocity $`\mathbf{\beta}_e=\mathbf{v}_e/c`$.
 
 For cluster SZ,
 $$
@@ -88,25 +88,25 @@ The two Lorentz boosts Doppler-redistribute frequency.
 
 Lorentz transform into the electron frame:
 $$
-\nu'_i=\gamma_e\nu_i\bigl(1-\boldsymbol{\beta}_e\cdot\hat{\mathbf{n}}_i\bigr).
+\nu'_i=\gamma_e\nu_i\bigl(1-\mathbf{\beta}_e\cdot\hat{\mathbf{n}}_i\bigr).
 $$
-Thomson scatter: $\nu'_f=\nu'_i$. Boost back:
+Thomson scatter: $`\nu'_f=\nu'_i`$. Boost back:
 $$
-\nu_f=\frac{\nu'_f}{\gamma_e\bigl(1-\boldsymbol{\beta}_e\cdot\hat{\mathbf{n}}_f\bigr)}.
+\nu_f=\frac{\nu'_f}{\gamma_e\bigl(1-\mathbf{\beta}_e\cdot\hat{\mathbf{n}}_f\bigr)}.
 $$
 Therefore
 $$
 \frac{\nu_f}{\nu_i}
 =
-\frac{1-\boldsymbol{\beta}_e\cdot\hat{\mathbf{n}}_i}{1-\boldsymbol{\beta}_e\cdot\hat{\mathbf{n}}_f}.
+\frac{1-\mathbf{\beta}_e\cdot\hat{\mathbf{n}}_i}{1-\mathbf{\beta}_e\cdot\hat{\mathbf{n}}_f}.
 $$
-This one ratio already contains **every** SZ effect. (Aberration of $\hat{\mathbf{n}}_i,\hat{\mathbf{n}}_f$ is implicit: the scattering angle that enters the Thomson kernel is the electron-frame angle.)
+This one ratio already contains **every** SZ effect. (Aberration of $`\hat{\mathbf{n}}_i,\hat{\mathbf{n}}_f`$ is implicit: the scattering angle that enters the Thomson kernel is the electron-frame angle.)
 
 Define the logarithmic shift
 $$
 s\equiv\ln\frac{\nu_f}{\nu_i}
 =
-\ln\frac{1-\boldsymbol{\beta}_e\cdot\hat{\mathbf{n}}_i}{1-\boldsymbol{\beta}_e\cdot\hat{\mathbf{n}}_f}.
+\ln\frac{1-\mathbf{\beta}_e\cdot\hat{\mathbf{n}}_i}{1-\mathbf{\beta}_e\cdot\hat{\mathbf{n}}_f}.
 $$
 Expanding in electron speed,
 $$
@@ -123,9 +123,9 @@ $$
 n(x)=\frac{1}{e^{x}-1},\qquad
 x\equiv\frac{h\nu}{k_B T_{\mathrm{CMB}}}.
 $$
-This is the **mean number of photons per mode** (one frequency, one direction, one polarisation), not a number density. Intensity is the same information: $I_{\nu}=(2h\nu^{3}/c^{2})n$. We use $n$ because it is Lorentz invariant, so the collision term is just photons entering/leaving a mode.
+This is the **mean number of photons per mode** (one frequency, one direction, one polarisation), not a number density. Intensity is the same information: $`I_{\nu}=(2h\nu^{3}/c^{2})n`$. We use $`n`$ because it is Lorentz invariant, so the collision term is just photons entering/leaving a mode.
 
-Averaging over scattering angles and the electron velocity distribution defines a frequency-redistribution kernel $P(s;\theta_e,\boldsymbol{\beta},\hat{\mathbf{n}})$. In the optically thin, single-scattering limit,
+Averaging over scattering angles and the electron velocity distribution defines a frequency-redistribution kernel $`P(s;\theta_e,\mathbf{\beta},\hat{\mathbf{n}})`$. In the optically thin, single-scattering limit,
 $$
 \Delta n(x,\hat{\mathbf{n}})
 =
@@ -134,11 +134,11 @@ $$
 \qquad
 d\tau=\sigma_T n_e\, dl.
 $$
-The first term is gain (photons scattered **into** this frequency from $x e^{-s}$); the second is loss (photons scattered **out** of $x$). $d\tau=\sigma_T n_e dl$ is the scattering probability in a path $dl$: one electron has area $\sigma_T$, so a tube of area $A$ contains $n_e A dl$ electrons and the hit probability is $n_e\sigma_T dl$. $\tau$ is the expected number of scatterings; for a cluster $\tau\sim 10^{-2}$, so $P_{\mathrm{scatter}}\approx\tau$.
+The first term is gain (photons scattered **into** this frequency from $`x e^{-s}`$); the second is loss (photons scattered **out** of $`x`$). $`d\tau=\sigma_T n_e dl`$ is the scattering probability in a path $`dl`$: one electron has area $`\sigma_T`$, so a tube of area $`A`$ contains $`n_e A dl`$ electrons and the hit probability is $`n_e\sigma_T dl`$. $`\tau`$ is the expected number of scatterings; for a cluster $`\tau\sim 10^{-2}`$, so $`P_{\mathrm{scatter}}\approx\tau`$.
 
 This is the most primitive **universal SZ equation**.
 
-The dilation operator $D\equiv x\partial_x$ implements a multiplicative frequency shift:
+The dilation operator $`D\equiv x\partial_x`$ implements a multiplicative frequency shift:
 $$
 n(xe^{-s})=e^{-sD}n(x).
 $$
@@ -167,7 +167,7 @@ Hoey, Long & Chluba (2026) use the opposite-sign energy-shift generator
 $$
 \hat{\mathcal{O}}_{\nu}\equiv -x\partial_x = -D,
 $$
-so $e^{-sD}=e^{s\hat{\mathcal{O}}_{\nu}}$. Same physics, opposite generator convention.
+so $`e^{-sD}=e^{s\hat{\mathcal{O}}_{\nu}}`$. Same physics, opposite generator convention.
 
 ---
 
@@ -179,13 +179,13 @@ $$
 \qquad
 \langle\mathbf{u}\rangle=0.
 $$
-$\mathbf{u}$ is thermal (random); $\mathbf{v}_{\mathrm{bulk}}$ is the coherent peculiar velocity of the gas element.
+$`\mathbf{u}`$ is thermal (random); $`\mathbf{v}_{\mathrm{bulk}}`$ is the coherent peculiar velocity of the gas element.
 
 Two small parameters:
 $$
 \theta_e\equiv\frac{k_B T_e}{m_e c^2},
 \qquad
-\boldsymbol{\beta}\equiv\frac{\mathbf{v}_{\mathrm{bulk}}}{c}.
+\mathbf{\beta}\equiv\frac{\mathbf{v}_{\mathrm{bulk}}}{c}.
 $$
 For Maxwellian electrons,
 $$
@@ -199,15 +199,15 @@ $$
 \qquad
 \langle u_i u_j\rangle\sim\theta_e.
 $$
-So the first non-vanishing **thermal** term is $\mathcal{O}(\theta_e)$, not $\mathcal{O}(\sqrt{\theta_e})$. Coherent velocity does **not** average to zero, so the first kinematic term is $\mathcal{O}(\beta)$.
+So the first non-vanishing **thermal** term is $`\mathcal{O}(\theta_e)`$, not $`\mathcal{O}(\sqrt{\theta_e})`$. Coherent velocity does **not** average to zero, so the first kinematic term is $`\mathcal{O}(\beta)`$.
 
 | Named effect | Order | Why that order |
 | --- | --- | --- |
-| tSZ | $\theta_e$ | isotropic $\langle u\rangle=0$; first even moment |
-| kSZ | $\beta$ | coherent $\langle v\rangle$ survives |
-| rSZ | $\theta_e^2,\theta_e^3,\ldots$ | higher even thermal moments |
-| rkSZ | $\beta\theta_e,\beta\theta_e^2,\ldots$ | thermal–kinematic cross terms |
-| $\beta^2$-SZ | $\beta^2$ | second-order bulk boost (monopole + quadrupole) |
+| tSZ | $`\theta_e`$ | isotropic $`\langle u\rangle=0`$; first even moment |
+| kSZ | $`\beta`$ | coherent $`\langle v\rangle`$ survives |
+| rSZ | $`\theta_e^2,\theta_e^3,\ldots`$ | higher even thermal moments |
+| rkSZ | $`\beta\theta_e,\beta\theta_e^2,\ldots`$ | thermal–kinematic cross terms |
+| $`\beta^2`$-SZ | $`\beta^2`$ | second-order bulk boost (monopole + quadrupole) |
 
 ---
 
@@ -218,22 +218,22 @@ $$
 =
 \tau\sum_{m,k}\beta^{m}\theta_e^{k}\,\mathcal{S}_{mk}(x,\mu),
 \qquad
-\mu=\hat{\boldsymbol{\beta}}\cdot\hat{\mathbf{n}}.
+\mu=\hat{\mathbf{\beta}}\cdot\hat{\mathbf{n}}.
 $$
 
 | Order             | Effect                            | Gas moment                |
 | ----------------- | --------------------------------- | ------------------------- |
-| $\theta_e$        | tSZ                               | $n_e T_e$                 |
-| $\beta$           | kSZ                               | $n_e v_{\parallel}$       |
-| $\theta_e^2$      | first rSZ                         | $n_e T_e^2$               |
-| $\theta_e^3$      | higher rSZ                        | $n_e T_e^3$               |
-| $\beta\theta_e$   | first rkSZ                        | $n_e v_{\parallel} T_e$   |
-| $\beta\theta_e^2$ | higher rkSZ                       | $n_e v_{\parallel} T_e^2$ |
-| $\beta^2$         | second-order kSZ                  | $n_e v^2$                 |
-| $\beta^2\theta_e$ | relativistic $\beta^2$ correction | $n_e v^2 T_e$             |
-| $\beta^3$         | third-order kSZ                   | $n_e v^3$                 |
+| $`\theta_e`$        | tSZ                               | $`n_e T_e`$                 |
+| $`\beta`$           | kSZ                               | $`n_e v_{\parallel}`$       |
+| $`\theta_e^2`$      | first rSZ                         | $`n_e T_e^2`$               |
+| $`\theta_e^3`$      | higher rSZ                        | $`n_e T_e^3`$               |
+| $`\beta\theta_e`$   | first rkSZ                        | $`n_e v_{\parallel} T_e`$   |
+| $`\beta\theta_e^2`$ | higher rkSZ                       | $`n_e v_{\parallel} T_e^2`$ |
+| $`\beta^2`$         | second-order kSZ                  | $`n_e v^2`$                 |
+| $`\beta^2\theta_e`$ | relativistic $`\beta^2`$ correction | $`n_e v^2 T_e`$             |
+| $`\beta^3`$         | third-order kSZ                   | $`n_e v^3`$                 |
 
-Typical cluster numbers: $\theta_e\sim k_B T_e/(511\,\mathrm{keV})\sim 0.02$ at $10\,\mathrm{keV}$; $\beta\sim 10^{-3}$ at $300\,\mathrm{km\,s^{-1}}$. So $\theta_e\gg\beta$ for massive clusters, but $\beta\theta_e$ can still be a few-percent correction to kSZ in hot, fast systems (e.g. MACS J0717).
+Typical cluster numbers: $`\theta_e\sim k_B T_e/(511\,\mathrm{keV})\sim 0.02`$ at $`10\,\mathrm{keV}`$; $`\beta\sim 10^{-3}`$ at $`300\,\mathrm{km\,s^{-1}}`$. So $`\theta_e\gg\beta`$ for massive clusters, but $`\beta\theta_e`$ can still be a few-percent correction to kSZ in hot, fast systems (e.g. MACS J0717).
 
 ---
 
@@ -248,9 +248,9 @@ $$
 =
 x^{-2}\partial_x\bigl(x^{4}\partial_x\bigr).
 $$
-$\hat{\mathcal{O}}_{\nu}$ generates a blackbody temperature shift. $\hat{\mathcal{D}}_{\nu}$ is the Kompaneets diffusion operator (energy redistribution at $\mathcal{O}(\theta_e)$).
+$`\hat{\mathcal{O}}_{\nu}`$ generates a blackbody temperature shift. $`\hat{\mathcal{D}}_{\nu}`$ is the Kompaneets diffusion operator (energy redistribution at $`\mathcal{O}(\theta_e)`$).
 
-Through $\mathcal{O}(\theta_e^2,\beta,\beta\theta_e,\beta^2)$, Hoey, Long & Chluba (2026) recover
+Through $`\mathcal{O}(\theta_e^2,\beta,\beta\theta_e,\beta^2)`$, Hoey, Long & Chluba (2026) recover
 $$
 \begin{aligned}
 \frac{\Delta n}{\tau}
@@ -284,7 +284,7 @@ $$
 +2\hat{\mathcal{O}}_{\nu}
 \Bigr].
 $$
-This is $\mathcal{O}(\beta\theta_e)$ and recovers the classical Nozawa et al. (1998) $C_1(x)$ correction.
+This is $`\mathcal{O}(\beta\theta_e)`$ and recovers the classical Nozawa et al. (1998) $`C_1(x)`$ correction.
 
 ---
 
@@ -295,7 +295,7 @@ $$
 =
 \tau\theta_e\,\hat{\mathcal{D}}_{\nu}n_{\mathrm{Pl}}.
 $$
-Acting on the Planck occupation $n_{\mathrm{Pl}}=(e^{x}-1)^{-1}$,
+Acting on the Planck occupation $`n_{\mathrm{Pl}}=(e^{x}-1)^{-1}`$,
 $$
 \hat{\mathcal{D}}_{\nu}n_{\mathrm{Pl}}
 =
@@ -321,7 +321,7 @@ So
 $$
 \mathrm{tSZ}\quad\longleftrightarrow\quad\int n_e T_e\, dl
 $$
-is only the **first thermal moment** of the universal expansion. See *Compton Y parameter and self-similarity* for the integrated $Y$ and self-similar scaling.
+is only the **first thermal moment** of the universal expansion. See *Compton Y parameter and self-similarity* for the integrated $`Y`$ and self-similar scaling.
 
 Chluba & Rosenberg write the all-order thermal series as
 $$
@@ -329,7 +329,7 @@ $$
 =
 \tau\theta_e\sum_{k=0}^{\infty}\theta_e^{k}Y_k(x),
 $$
-where $Y_0$ is classical tSZ.
+where $`Y_0`$ is classical tSZ.
 
 ---
 
@@ -340,7 +340,7 @@ $$
 =
 \tau\bigl[\theta_e Y_0(x)+\theta_e^{2}Y_1(x)+\theta_e^{3}Y_2(x)+\cdots\bigr].
 $$
-$\theta_e Y_0$ is ordinary tSZ. The rest are relativistic tSZ corrections (observational literature often just says **rSZ**). Itoh et al. (1998) computed high-order $\theta_e$ terms; SZpack / boost-operator methods generate them systematically.
+$`\theta_e Y_0`$ is ordinary tSZ. The rest are relativistic tSZ corrections (observational literature often just says **rSZ**). Itoh et al. (1998) computed high-order $`\theta_e`$ terms; SZpack / boost-operator methods generate them systematically.
 
 Along the line of sight,
 $$
@@ -354,16 +354,16 @@ $$
 \qquad
 \mathrm{rSZ}^{(k)}\propto\int n_e T_e^{k+1}\, dl.
 $$
-rSZ therefore measures **temperature moments**, not just the pressure that ordinary tSZ sees. That is why $y$-weighted temperatures $T_y$ differ from X-ray spectroscopic temperatures — see *Hydrostatic Bias* and Kay et al. (2024).
+rSZ therefore measures **temperature moments**, not just the pressure that ordinary tSZ sees. That is why $`y`$-weighted temperatures $`T_y`$ differ from X-ray spectroscopic temperatures — see *Hydrostatic Bias* and Kay et al. (2024).
 
 > **Warning:** Asymptotic series
-> The $\theta_e$ expansion is asymptotic. In the Wien tail, $n_{\mathrm{Pl}}\sim e^{-x}$, so high-order frequency derivatives over-correct and the series oscillates. For hot clusters one should use SZpack (or the exact boost-operator form) rather than truncating $Y_k$ by hand.
+> The $`\theta_e`$ expansion is asymptotic. In the Wien tail, $`n_{\mathrm{Pl}}\sim e^{-x}`$, so high-order frequency derivatives over-correct and the series oscillates. For hot clusters one should use SZpack (or the exact boost-operator form) rather than truncating $`Y_k`$ by hand.
 
 ---
 
 ## 9. kSZ is (m, k) = (1, 0)
 
-Set $\theta_e\to 0$ but $\beta\neq 0$. The leading term is
+Set $`\theta_e\to 0`$ but $`\beta\neq 0`$. The leading term is
 $$
 \Delta n_{\mathrm{kSZ}}
 =
@@ -375,7 +375,7 @@ $$
 =
 \frac{xe^{x}}{(e^{x}-1)^{2}},
 $$
-this is a pure blackbody temperature shift. With the convention that $\mu$ is the cosine between $\boldsymbol{\beta}$ and the photon direction, and $v_{\parallel}>0$ **away from the observer**,
+this is a pure blackbody temperature shift. With the convention that $`\mu`$ is the cosine between $`\mathbf{\beta}`$ and the photon direction, and $`v_{\parallel}>0`$ **away from the observer**,
 $$
 \frac{\Delta T}{T_{\mathrm{CMB}}}
 =
@@ -383,7 +383,7 @@ $$
 =
 -\frac{\sigma_T}{c}\int dl\, n_e v_{\parallel}.
 $$
-Hoey et al. write the same statement as $\Delta T/T_{\mathrm{CMB}}\simeq -\tau\beta_{\mathrm{p}}\mu_{\mathrm{p}}$.
+Hoey et al. write the same statement as $`\Delta T/T_{\mathrm{CMB}}\simeq -\tau\beta_{\mathrm{p}}\mu_{\mathrm{p}}`$.
 
 So
 $$
@@ -395,7 +395,7 @@ No thermal energy is exchanged. The microscopic process is still Thomson scatter
 
 ## 10. rkSZ is (m, k) = (1, 1)
 
-If $T_e\neq 0$ **and** $v_{\mathrm{bulk}}\neq 0$, a cross term $\beta\theta_e$ is required:
+If $`T_e\neq 0`$ **and** $`v_{\mathrm{bulk}}\neq 0`$, a cross term $`\beta\theta_e`$ is required:
 $$
 \Delta n_{\mathrm{rkSZ}}
 \sim
@@ -410,26 +410,26 @@ $$
 \int d\tau\,\beta_{\parallel}
 \bigl[C_0(x)+\theta_e C_1(x)+\theta_e^{2}C_2(x)+\cdots\bigr],
 $$
-where $C_0$ is ordinary kSZ. Strictly,
+where $`C_0`$ is ordinary kSZ. Strictly,
 $$
 \mathrm{kSZ}=\beta\theta_e^{0},
 \qquad
 \mathrm{rkSZ}=\beta\theta_e+\beta\theta_e^{2}+\cdots.
 $$
-Nozawa, Itoh & Kohyama (1998) computed these mixed terms. For $T_e\sim 10\,\mathrm{keV}$, the $\beta\theta_e$ correction is typically a few percent of kSZ.
+Nozawa, Itoh & Kohyama (1998) computed these mixed terms. For $`T_e\sim 10\,\mathrm{keV}`$, the $`\beta\theta_e`$ correction is typically a few percent of kSZ.
 
 ---
 
 ## 11. n_e v^2 is not rkSZ
 
-A velocity-weighted kSZ moment $\sim n_e v^2$ is physically real, but it is **not** what the literature calls relativistic kSZ.
+A velocity-weighted kSZ moment $`\sim n_e v^2`$ is physically real, but it is **not** what the literature calls relativistic kSZ.
 
 | Object | Order | Name |
 | --- | --- | --- |
-| $n_e v_{\parallel} T_e$ | $\beta\theta_e$ | **rkSZ** (leading) |
-| $n_e v^2$ | $\beta^2$ | second-order **kinematic** SZ |
+| $`n_e v_{\parallel} T_e`$ | $`\beta\theta_e`$ | **rkSZ** (leading) |
+| $`n_e v^2`$ | $`\beta^2`$ | second-order **kinematic** SZ |
 
-$\beta^2$-SZ is interesting because it is no longer a pure dipole.
+$`\beta^2`$-SZ is interesting because it is no longer a pure dipole.
 
 ---
 
@@ -447,9 +447,9 @@ $$
 +\beta^{2}\left(\mu^{2}-\frac12\right)
 +\cdots.
 $$
-- $\mathcal{O}(\beta)$: dipole $\propto P_1(\mu)$
-- $\mathcal{O}(\beta^2)$: $P_0(\mu)+P_2(\mu)$ (monopole + quadrupole)
-- $\mathcal{O}(\beta^3)$: $P_1(\mu)+P_3(\mu)$
+- $`\mathcal{O}(\beta)`$: dipole $`\propto P_1(\mu)`$
+- $`\mathcal{O}(\beta^2)`$: $`P_0(\mu)+P_2(\mu)`$ (monopole + quadrupole)
+- $`\mathcal{O}(\beta^3)`$: $`P_1(\mu)+P_3(\mu)`$
 
 This is angular-momentum structure, not a coincidence. Hoey et al. (2026), Eq. (3.15):
 $$
@@ -472,7 +472,7 @@ $$
 +\cdots.
 \end{aligned}
 $$
-The $\beta^3$ terms were first obtained with the boost-operator method (Chluba & Rosenberg 2026); they are usually negligible at typical cluster speeds.
+The $`\beta^3`$ terms were first obtained with the boost-operator method (Chluba & Rosenberg 2026); they are usually negligible at typical cluster speeds.
 
 ---
 
@@ -498,20 +498,20 @@ $$
 
 | Moment | Integral | Named effect |
 | --- | --- | --- |
-| $\mathcal{M}_{00}^{(1)}$ | $\int d\tau\,\theta_e$ | tSZ |
-| $\mathcal{M}_{00}^{(2)}$ | $\int d\tau\,\theta_e^{2}$ | rSZ |
-| $\mathcal{M}_{11}^{(0)}$ | $\int d\tau\,\beta P_1(\mu)$ | kSZ |
-| $\mathcal{M}_{11}^{(1)}$ | $\int d\tau\,\beta\theta_e P_1(\mu)$ | rkSZ |
-| $\mathcal{M}_{20}^{(0)}$ | $\int d\tau\,\beta^{2}$ | $\beta^2$ monopole |
-| $\mathcal{M}_{22}^{(0)}$ | $\int d\tau\,\beta^{2} P_2(\mu)$ | $\beta^2$ quadrupole |
+| $`\mathcal{M}_{00}^{(1)}`$ | $`\int d\tau\,\theta_e`$ | tSZ |
+| $`\mathcal{M}_{00}^{(2)}`$ | $`\int d\tau\,\theta_e^{2}`$ | rSZ |
+| $`\mathcal{M}_{11}^{(0)}`$ | $`\int d\tau\,\beta P_1(\mu)`$ | kSZ |
+| $`\mathcal{M}_{11}^{(1)}`$ | $`\int d\tau\,\beta\theta_e P_1(\mu)`$ | rkSZ |
+| $`\mathcal{M}_{20}^{(0)}`$ | $`\int d\tau\,\beta^{2}`$ | $`\beta^2`$ monopole |
+| $`\mathcal{M}_{22}^{(0)}`$ | $`\int d\tau\,\beta^{2} P_2(\mu)`$ | $`\beta^2`$ quadrupole |
 
-Chluba et al. (2013) organised the same idea as generalized Compton moments $y^{(k)}$ and velocity moments $b^{(k)}$: the LOS-integrated SZ spectrum is completely determined by these moments.
+Chluba et al. (2013) organised the same idea as generalized Compton moments $`y^{(k)}`$ and velocity moments $`b^{(k)}`$: the LOS-integrated SZ spectrum is completely determined by these moments.
 
 ---
 
 ## 14. Astrophysical fields
 
-Since $d\tau=\sigma_T n_e\, dl$,
+Since $`d\tau=\sigma_T n_e\, dl`$,
 $$
 \mathcal{M}_{m\ell}^{(k)}
 =
@@ -522,19 +522,19 @@ n_e
 \left(\frac{v}{c}\right)^{m}
 P_{\ell}(\mu).
 $$
-SZ is tomography of electron phase space, $n_e T_e^{k} v^{m} P_{\ell}(\mu)$:
+SZ is tomography of electron phase space, $`n_e T_e^{k} v^{m} P_{\ell}(\mu)`$:
 
 | Probe | Field |
 | --- | --- |
-| $\tau$ | $n_e$ |
-| tSZ | $n_e T_e$ |
-| rSZ | $n_e T_e^{2}$, $n_e T_e^{3}$, … |
-| kSZ | $n_e v_{\parallel}$ |
-| rkSZ | $n_e T_e v_{\parallel}$, $n_e T_e^{2} v_{\parallel}$, … |
-| $\beta^2$ SZ | $n_e v^{2}$, $n_e v^{2} P_2(\mu)$ |
-| $\beta^2$ rSZ | $n_e T_e v^{2}$, … |
+| $`\tau`$ | $`n_e`$ |
+| tSZ | $`n_e T_e`$ |
+| rSZ | $`n_e T_e^{2}`$, $`n_e T_e^{3}`$, … |
+| kSZ | $`n_e v_{\parallel}`$ |
+| rkSZ | $`n_e T_e v_{\parallel}`$, $`n_e T_e^{2} v_{\parallel}`$, … |
+| $`\beta^2`$ SZ | $`n_e v^{2}`$, $`n_e v^{2} P_2(\mu)`$ |
+| $`\beta^2`$ rSZ | $`n_e T_e v^{2}`$, … |
 
-The slogans “tSZ measures pressure, kSZ measures momentum” are the $(k,m)=(1,0)$ and $(0,1)$ corners of this hierarchy. The deeper statement is:
+The slogans “tSZ measures pressure, kSZ measures momentum” are the $`(k,m)=(1,0)`$ and $`(0,1)`$ corners of this hierarchy. The deeper statement is:
 
 > **Tip:** One-line summary
 > **The SZ spectrum measures moments of the electron phase-space distribution.**
@@ -548,7 +548,7 @@ $$
 \Delta n
 =
 \tau\,
-\hat{\mathcal{S}}_{\mathrm{SZ}}(\nu,\hat{\boldsymbol{\gamma}},\theta_e,\boldsymbol{\beta}_{\mathrm{p}})\,
+\hat{\mathcal{S}}_{\mathrm{SZ}}(\nu,\hat{\mathbf{\gamma}},\theta_e,\mathbf{\beta}_{\mathrm{p}})\,
 n^{\mathrm{Pl}},
 $$
 with Legendre decomposition
@@ -556,7 +556,7 @@ $$
 \hat{\mathcal{S}}_{\mathrm{SZ}}
 =
 \sum_{\ell=0}^{\infty}
-P_{\ell}(\hat{\boldsymbol{\gamma}}\cdot\hat{\boldsymbol{\beta}}_{\mathrm{p}})\,
+P_{\ell}(\hat{\mathbf{\gamma}}\cdot\hat{\mathbf{\beta}}_{\mathrm{p}})\,
 \hat{\mathcal{S}}_{\ell}(\nu,\theta_e,\beta_{\mathrm{p}})
 $$
 and
@@ -575,9 +575,9 @@ $$
 \times
 \underbrace{\hat{\mathcal{D}}_{\ell\ell'0}(\beta)}_{\text{bulk Lorentz boost}}.
 $$
-This is exact (single-scattering, unpolarized) to **all orders** in $\theta_e$ and $\beta$. The thermal operators depend only on $\theta_e$; the Doppler operators depend only on $\beta$. One may expand either independently.
+This is exact (single-scattering, unpolarized) to **all orders** in $`\theta_e`$ and $`\beta`$. The thermal operators depend only on $`\theta_e`$; the Doppler operators depend only on $`\beta`$. One may expand either independently.
 
-In the CMB-frame calculation the electron distribution is an **anisotropic** relativistic Maxwellian, so $\theta_e$ and $\beta$ are entangled inside the integrals. Doing the thermal average in the cloud frame first removes that entanglement.
+In the CMB-frame calculation the electron distribution is an **anisotropic** relativistic Maxwellian, so $`\theta_e`$ and $`\beta`$ are entangled inside the integrals. Doing the thermal average in the cloud frame first removes that entanglement.
 
 The thermal operators themselves are Doppler-operator averages over a relativistic Maxwellian (Hoey et al., Eq. 3.1b):
 $$
@@ -593,7 +593,7 @@ $$
 $$
 f(\gamma)=\frac{e^{-\gamma/\theta_e}}{\theta_e K_2(1/\theta_e)}.
 $$
-The $1$ and $1/10$ weights are Thomson: monopole scattering plus the $\ell=2$ anisotropy of $1+\cos^2\Theta$.
+The $`1`$ and $`1/10`$ weights are Thomson: monopole scattering plus the $`\ell=2`$ anisotropy of $`1+\cos^2\Theta`$.
 
 ---
 
@@ -617,9 +617,9 @@ In the individual electron frame: **just Thomson scattering**. Then reverse the 
 
 | Motion | Averages | Named series |
 | --- | --- | --- |
-| thermal, random | $\langle u\rangle=0$, $\langle u^2\rangle\neq 0$ | tSZ + rSZ |
-| bulk, coherent | $\langle v\rangle\neq 0$ | kSZ + higher kSZ |
-| both | mixed | rkSZ, $\beta^{2}\theta_e$, … |
+| thermal, random | $`\langle u\rangle=0`$, $`\langle u^2\rangle\neq 0`$ | tSZ + rSZ |
+| bulk, coherent | $`\langle v\rangle\neq 0`$ | kSZ + higher kSZ |
+| both | mixed | rkSZ, $`\beta^{2}\theta_e`$, … |
 
 Mathematically:
 $$
@@ -632,7 +632,7 @@ $$
 
 ## 17. Polarization
 
-Polarized SZ is the same scattering/boost hierarchy, with the photon field extended from spin-$0$ intensity to spin-$\pm 2$.
+Polarized SZ is the same scattering/boost hierarchy, with the photon field extended from spin-$`0`$ intensity to spin-$`\pm 2`$.
 
 Thomson scattering responds to an incident **quadrupole**. A bulk boost of the CMB monopole produces
 $$
@@ -648,18 +648,18 @@ A primordial CMB quadrupole gives
 $$
 Q\pm iU\sim\tau a_{2m}.
 $$
-Thermal corrections then supply $\theta_e\beta^2$, etc. Rosenberg & Chluba (2026) extend the boost-operator formalism to this case.
+Thermal corrections then supply $`\theta_e\beta^2`$, etc. Rosenberg & Chluba (2026) extend the boost-operator formalism to this case.
 
 ---
 
 ## 18. SZ periodic table
 
-|  | $\theta_e^{0}$ | $\theta_e^{1}$ | $\theta_e^{2}$ | $\theta_e^{3}$ | $\cdots$ |
+|  | $`\theta_e^{0}`$ | $`\theta_e^{1}`$ | $`\theta_e^{2}`$ | $`\theta_e^{3}`$ | $`\cdots`$ |
 | --- | --- | --- | --- | --- | --- |
-| $\beta^{0}$ | $0$ | **tSZ** | rSZ$_1$ | rSZ$_2$ | $\cdots$ |
-| $\beta^{1}$ | **kSZ** | **rkSZ$_1$** | rkSZ$_2$ | rkSZ$_3$ | $\cdots$ |
-| $\beta^{2}$ | kSZ$^{(2)}$ | rkSZ$^{(2,1)}$ | $\cdots$ |  |  |
-| $\beta^{3}$ | kSZ$^{(3)}$ | $\cdots$ |  |  |  |
+| $`\beta^{0}`$ | $`0`$ | **tSZ** | rSZ$`_1`$ | rSZ$`_2`$ | $`\cdots`$ |
+| $`\beta^{1}`$ | **kSZ** | **rkSZ$`_1`$** | rkSZ$`_2`$ | rkSZ$`_3`$ | $`\cdots`$ |
+| $`\beta^{2}`$ | kSZ$`^{(2)}`$ | rkSZ$`^{(2,1)}`$ | $`\cdots`$ |  |  |
+| $`\beta^{3}`$ | kSZ$`^{(3)}`$ | $`\cdots`$ |  |  |  |
 
 Each cell is one astrophysical moment,
 $$
@@ -667,7 +667,7 @@ $$
 \quad\Longleftrightarrow\quad
 \int dl\, n_e\, v^{m}\, T_e^{k}\times\text{(angular moment)}.
 $$
-tSZ starts at $k=1$. The cold/static $(0,0)$ cell produces no distortion.
+tSZ starts at $`k=1`$. The cold/static $`(0,0)`$ cell produces no distortion.
 
 ---
 
@@ -675,13 +675,13 @@ tSZ starts at $k=1$. The cold/static $(0,0)$ cell produces no distortion.
 
 Keep these in view while reviewing the derivation.
 
-1. **Single scattering / optically thin.** Multiple scatterings exist (Chluba, Dai & Kamionkowski 2014) and are a separate expansion in $\tau$.
-2. **Thomson limit.** Recoil $\propto h\nu/m_e c^2$ is dropped. That is excellent for CMB photons; it is not a statement about electron relativity.
+1. **Single scattering / optically thin.** Multiple scatterings exist (Chluba, Dai & Kamionkowski 2014) and are a separate expansion in $`\tau`$.
+2. **Thomson limit.** Recoil $`\propto h\nu/m_e c^2`$ is dropped. That is excellent for CMB photons; it is not a statement about electron relativity.
 3. **Unpolarized incoming radiation** in the Hoey (2026) all-orders formula. Polarization is an extension, not a different collision term.
 4. **Lab frame = CMB rest frame.** Observer motion (Chluba, Hütsi & Sunyaev 2005) is another boost.
-5. **Maxwellian electrons** in the cloud frame. Non-thermal tails change the thermal operators $\hat{\mathcal{S}}^{\mathrm{th}}_{\ell}$.
-6. **Constant $\beta_{\mathrm{p}}$ along the LOS** in the operator derivation. Spatially varying velocity is restored by integrating $\mathcal{M}_{m\ell}^{(k)}$ along the ray.
-7. **$\theta_e$ series is asymptotic.** High-$x$ / high-$T_e$ needs the exact operator or SZpack, not a truncated $Y_k$.
+5. **Maxwellian electrons** in the cloud frame. Non-thermal tails change the thermal operators $`\hat{\mathcal{S}}^{\mathrm{th}}_{\ell}`$.
+6. **Constant $`\beta_{\mathrm{p}}`$ along the LOS** in the operator derivation. Spatially varying velocity is restored by integrating $`\mathcal{M}_{m\ell}^{(k)}`$ along the ray.
+7. **$`\theta_e`$ series is asymptotic.** High-$`x`$ / high-$`T_e`$ needs the exact operator or SZpack, not a truncated $`Y_k`$.
 
 ---
 
@@ -691,14 +691,14 @@ Read in this order if the goal is the **unified** viewpoint rather than separate
 
 | Priority | Paper | Why |
 | --- | --- | --- |
-| ★★★ | Hoey, Long & Chluba (2026) — [arXiv:2608.07404](https://arxiv.org/abs/2608.07404) | Thermal average in the cloud frame, then boost. All-orders $\hat{\mathcal{S}}_{\mathrm{SZ}}$. Recovers $C_1$ and $\beta^3$. **Start here.** |
-| ★★★ | Chluba & Rosenberg (2026) — [arXiv:2508.20659](https://arxiv.org/abs/2508.20659), [MNRAS](https://academic.oup.com/mnras/article/547/1/stag240/8475325) | Full boost-operator machinery; generates arbitrary $(\theta_e,\beta)$ order. |
+| ★★★ | Hoey, Long & Chluba (2026) — [arXiv:2608.07404](https://arxiv.org/abs/2608.07404) | Thermal average in the cloud frame, then boost. All-orders $`\hat{\mathcal{S}}_{\mathrm{SZ}}`$. Recovers $`C_1`$ and $`\beta^3`$. **Start here.** |
+| ★★★ | Chluba & Rosenberg (2026) — [arXiv:2508.20659](https://arxiv.org/abs/2508.20659), [MNRAS](https://academic.oup.com/mnras/article/547/1/stag240/8475325) | Full boost-operator machinery; generates arbitrary $`(\theta_e,\beta)`$ order. |
 | ★★☆ | Chluba et al. (2012) — [arXiv:1205.5778](https://arxiv.org/abs/1205.5778) | SZpack: thermal, kinematic, dipole/quadrupole scattering. |
-| ★★☆ | Chluba et al. (2013) — [arXiv:1211.3206](https://arxiv.org/abs/1211.3206) | Temperature–velocity **moment method**. Directly $\int d\tau\,\theta_e^{k}\beta^{m}$. |
-| ★★☆ | Itoh, Kohyama & Nozawa (1998) — [arXiv:astro-ph/9712289](https://arxiv.org/abs/astro-ph/9712289) | Classical $\theta_e$ expansion (rSZ). |
-| ★★☆ | Nozawa, Itoh & Kohyama (1998) — [arXiv:astro-ph/9804051](https://arxiv.org/abs/astro-ph/9804051) | Classical $\beta\theta_e^{k}$ relativistic-kSZ expansion. |
+| ★★☆ | Chluba et al. (2013) — [arXiv:1211.3206](https://arxiv.org/abs/1211.3206) | Temperature–velocity **moment method**. Directly $`\int d\tau\,\theta_e^{k}\beta^{m}`$. |
+| ★★☆ | Itoh, Kohyama & Nozawa (1998) — [arXiv:astro-ph/9712289](https://arxiv.org/abs/astro-ph/9712289) | Classical $`\theta_e`$ expansion (rSZ). |
+| ★★☆ | Nozawa, Itoh & Kohyama (1998) — [arXiv:astro-ph/9804051](https://arxiv.org/abs/astro-ph/9804051) | Classical $`\beta\theta_e^{k}`$ relativistic-kSZ expansion. |
 | ★☆☆ | Chluba & Ravenni (2025) — [arXiv:2505.02080](https://arxiv.org/abs/2505.02080) | Boost operator as a mathematical object (aberration kernel, recurrences). |
-| ★☆☆ | Rosenberg & Chluba (2026) — polarized SZ, MNRAS `stag331` | Same hierarchy for $Q\pm iU$. |
+| ★☆☆ | Rosenberg & Chluba (2026) — polarized SZ, MNRAS `stag331` | Same hierarchy for $`Q\pm iU`$. |
 | ★☆☆ | Sazonov & Sunyaev (1998/1999); Challinor & Lasenby (1998) | Independent early relativistic calculations. |
 
 Mathematica notebooks for the 2026 operator expansions: [chluba.de/Mathematica](http://www.chluba.de/Mathematica).
@@ -711,22 +711,22 @@ If SZ is an electron phase-space moment expansion, then tSZ, rSZ, and kSZ are no
 $$
 \int n_e\, T_e^{k}\, v^{m}\, P_{\ell}(\mu)\, dl.
 $$
-The observational question for next-generation multifrequency CMB (SO, CMB-S4, AtLAST, CMB-HD) is: **which $(k,m,\ell)$ moments can actually be separated**, and which of those constrain feedback, temperature structure, bulk/turbulent velocity, and cosmology independently.
+The observational question for next-generation multifrequency CMB (SO, CMB-S4, AtLAST, CMB-HD) is: **which $`(k,m,\ell)`$ moments can actually be separated**, and which of those constrain feedback, temperature structure, bulk/turbulent velocity, and cosmology independently.
 
-That is a sharper question than “measure kSZ” or “measure pressure”. It also clarifies why $n_e v^2$ (turbulent / second-order kinematic) and $n_e v_{\parallel} T_e$ (rkSZ) must not be conflated.
+That is a sharper question than “measure kSZ” or “measure pressure”. It also clarifies why $`n_e v^2`$ (turbulent / second-order kinematic) and $`n_e v_{\parallel} T_e`$ (rkSZ) must not be conflated.
 
 ---
 
 ## Review checklist
 
-- [ ] Reproduce $\nu_f/\nu_i$ from two Lorentz boosts plus Thomson ($\nu'_{\mathrm{out}}=\nu'_{\mathrm{in}}$)
-- [ ] Show why $(m,k)=(0,0)$ vanishes for an isotropic blackbody
-- [ ] Show why tSZ starts at $\theta_e$ rather than $\sqrt{\theta_e}$
-- [ ] Derive $\hat{\mathcal{D}}_{\nu}n_{\mathrm{Pl}}$ and recover the classical $y$-distortion
-- [ ] Derive $\hat{\mathcal{O}}_{\nu}n_{\mathrm{Pl}}$ and recover $\Delta T/T=-\tau\beta\mu$
-- [ ] State the difference between $n_e v_{\parallel}T_e$ (rkSZ) and $n_e v^2$ ($\beta^2$-SZ)
-- [ ] Explain why $\beta^2$ contains $P_0$ and $P_2$
-- [ ] Write $\Delta n=\tau\hat{\mathcal{S}}_{\mathrm{SZ}}n^{\mathrm{Pl}}$ and identify the thermal vs Doppler factors
+- [ ] Reproduce $`\nu_f/\nu_i`$ from two Lorentz boosts plus Thomson ($`\nu'_{\mathrm{out}}=\nu'_{\mathrm{in}}`$)
+- [ ] Show why $`(m,k)=(0,0)`$ vanishes for an isotropic blackbody
+- [ ] Show why tSZ starts at $`\theta_e`$ rather than $`\sqrt{\theta_e}`$
+- [ ] Derive $`\hat{\mathcal{D}}_{\nu}n_{\mathrm{Pl}}`$ and recover the classical $`y`$-distortion
+- [ ] Derive $`\hat{\mathcal{O}}_{\nu}n_{\mathrm{Pl}}`$ and recover $`\Delta T/T=-\tau\beta\mu`$
+- [ ] State the difference between $`n_e v_{\parallel}T_e`$ (rkSZ) and $`n_e v^2`$ ($`\beta^2`$-SZ)
+- [ ] Explain why $`\beta^2`$ contains $`P_0`$ and $`P_2`$
+- [ ] Write $`\Delta n=\tau\hat{\mathcal{S}}_{\mathrm{SZ}}n^{\mathrm{Pl}}`$ and identify the thermal vs Doppler factors
 - [ ] List the assumptions (single scattering, Thomson, CMB frame, Maxwellian)
 
 ---

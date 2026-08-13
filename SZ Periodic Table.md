@@ -4,7 +4,7 @@ GitHub cannot render Obsidian `.canvas` files. This page is the same map as `SZ 
 
 ## Compton cells
 
-Rows are bulk-velocity order $\beta^m$. Columns are thermal order $\theta_e^k$.
+Rows are bulk-velocity order $`\beta^m`$. Columns are thermal order $`\theta_e^k`$.
 
 ```mermaid
 flowchart TB

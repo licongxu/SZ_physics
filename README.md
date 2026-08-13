@@ -1,6 +1,6 @@
 # SZ physics notes
 
-Obsidian notes on the Sunyaev–Zeldovich effect as one Compton/Thomson operator expanded in electron temperature $\theta_e$ and bulk velocity $\beta$.
+Obsidian notes on the Sunyaev–Zeldovich effect as one Compton/Thomson operator expanded in electron temperature $`\theta_e`$ and bulk velocity $`\beta`$.
 
 GitHub does not render Obsidian **canvas** (`.canvas`) or the **graph view** (关系图谱). This README is the online stand-in: mermaid maps plus ordinary markdown links. In Obsidian, open `SZ Periodic Table.canvas` and the local graph as usual.
 
@@ -74,7 +74,7 @@ flowchart TB
 
 ## How to read this
 
-1. [Unified SZ Derivation](Unified%20SZ%20Derivation.md) — one collision operator, double expansion in $(\theta_e,\beta)$.
+1. [Unified SZ Derivation](Unified%20SZ%20Derivation.md) — one collision operator, double expansion in $`(\theta_e,\beta)`$.
 2. [SZ Literature Map](SZ%20Literature%20Map.md) — what has been detected vs theory-only.
 3. Probe notes in `literature/`.
 4. [Mroczkowski et al. 2019](https://arxiv.org/abs/1811.02310) as the review backbone.

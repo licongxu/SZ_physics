@@ -24,8 +24,8 @@ Not exhaustive. Landmark and 2019–2026 papers that define each probe. Topic no
 ## Theory: Compton hierarchy / operators
 - Kompaneets 1956 — diffusion equation
 - Wright 1979; Fabbri 1981; Rephaeli 1995 — relativistic kernel
-- Challinor & Lasenby 1998; **Itoh, Kohyama & Nozawa 1998** [astro-ph/9712289](https://arxiv.org/abs/astro-ph/9712289) — $\theta_e$ expansion ([rSZ literature](literature/rSZ%20literature.md))
-- **Nozawa, Itoh & Kohyama 1998** [astro-ph/9804051](https://arxiv.org/abs/astro-ph/9804051) — $\beta\theta_e$, $\beta^2$ ([rkSZ and higher kinematic](literature/rkSZ%20and%20higher%20kinematic.md))
+- Challinor & Lasenby 1998; **Itoh, Kohyama & Nozawa 1998** [astro-ph/9712289](https://arxiv.org/abs/astro-ph/9712289) — $`\theta_e`$ expansion ([rSZ literature](literature/rSZ%20literature.md))
+- **Nozawa, Itoh & Kohyama 1998** [astro-ph/9804051](https://arxiv.org/abs/astro-ph/9804051) — $`\beta\theta_e`$, $`\beta^2`$ ([rkSZ and higher kinematic](literature/rkSZ%20and%20higher%20kinematic.md))
 - Sazonov & Sunyaev 1998, 1999 — kinematic + polarisation
 - **Chluba et al. 2012** [arXiv:1205.5778](https://arxiv.org/abs/1205.5778) — SZpack
 - **Chluba et al. 2013** [arXiv:1211.3206](https://arxiv.org/abs/1211.3206) — temperature–velocity moments
@@ -37,43 +37,43 @@ Not exhaustive. Landmark and 2019–2026 papers that define each probe. Topic no
 - Rosenberg & Chluba 2026 — polarised boost operator
 - Relativistic-correction forecasts [arXiv:2504.18637](https://arxiv.org/abs/2504.18637)
 
-## tSZ surveys, maps, $C_\ell$
+## tSZ surveys, maps, $`C_\ell`$
 - Staniszewski et al. 2009 — first SPT blind clusters
 - Menanteau et al. 2010 — ACT
 - **Planck PSZ2 2016**, A&A 594, A27 — 1653 sources / 1203 confirmed ([tSZ literature](literature/tSZ%20literature.md))
-- Planck $y$-maps 2014/2016 (MILCA, NILC)
+- Planck $`y`$-maps 2014/2016 (MILCA, NILC)
 - Hilton et al. 2021 — ACT DR5 cluster catalog
-- Reichardt et al. 2021; Choi et al. 2020 — high-$\ell$ tSZ templates
-- **Efstathiou & McCarthy 2025**, MNRAS — tSZ $C_\ell$ from $TT$, vs FLAMINGO (*Pressure Profiles and tSZ PS*)
-- SPT-3G D1 $y$-maps [arXiv:2602.11279](https://arxiv.org/abs/2602.11279)
-- SPT-3G+SPIRE full-shape $C_\ell^{yy}$ $9.3\sigma$ [arXiv:2602.10107](https://arxiv.org/abs/2602.10107)
+- Reichardt et al. 2021; Choi et al. 2020 — high-$`\ell`$ tSZ templates
+- **Efstathiou & McCarthy 2025**, MNRAS — tSZ $`C_\ell`$ from $`TT`$, vs FLAMINGO (*Pressure Profiles and tSZ PS*)
+- SPT-3G D1 $`y`$-maps [arXiv:2602.11279](https://arxiv.org/abs/2602.11279)
+- SPT-3G+SPIRE full-shape $`C_\ell^{yy}`$ $`9.3\sigma`$ [arXiv:2602.10107](https://arxiv.org/abs/2602.10107)
 - Bolliet et al. 2025 — CLASS_SZ II [arXiv:2507.07346](https://arxiv.org/abs/2507.07346)
 - Arnaud et al. 2010 — universal GNFW (*The Universal Pressure Profile and A10*)
 
 ## kSZ
 - **Hand et al. 2012**, PRL — first pairwise kSZ (ACT+SDSS) ([kSZ literature](literature/kSZ%20literature.md))
-- Planck pairwise / $v$–$T$ correlation
+- Planck pairwise / $`v`$–$`T`$ correlation
 - Soergel et al. — DES+SPT pairwise
 - Schaan, Amodeo, Calafut, Battaglia, … — ACT+BOSS stacks (CGM)
-- **Sayers et al. 2013** — MACS J0717 Bolocam $4.2\sigma$
+- **Sayers et al. 2013** — MACS J0717 Bolocam $`4.2\sigma`$
 - **Adam et al. 2017** — NIKA resolved kSZ map
-- **Hadzhiyska et al. 2025** — ACT+DESI $13\sigma$ stacked kSZ, strong feedback
-- DESI DR1 pairwise + ACT DR6 **$9.3\sigma$** [arXiv:2511.23417](https://arxiv.org/abs/2511.23417)
-- ACT DR6 velocity reconstruction $3.8\sigma$, JCAP 05 (2025) 057
+- **Hadzhiyska et al. 2025** — ACT+DESI $`13\sigma`$ stacked kSZ, strong feedback
+- DESI DR1 pairwise + ACT DR6 **$`9.3\sigma`$** [arXiv:2511.23417](https://arxiv.org/abs/2511.23417)
+- ACT DR6 velocity reconstruction $`3.8\sigma`$, JCAP 05 (2025) 057
 - DESI DR2 + ACT DR6 precision kSZ [arXiv:2604.19744](https://arxiv.org/abs/2604.19744)
 
 ## rSZ temperatures
 - Hurier 2016; Erler, Basu, Chluba & Bertoldi 2018
 - Butler et al. 2022 — RX J1347
-- Remazeilles et al. 2025 — Planck $\langle T_e\rangle\simeq 5\,\mathrm{keV}$ [arXiv:2410.02488](https://arxiv.org/abs/2410.02488)
-- **Coulton et al. 2026**, PRD — ACT+Planck $\langle T_e\rangle=8.5\pm 2.4\,\mathrm{keV}$ [arXiv:2410.19046](https://arxiv.org/abs/2410.19046)
-- Kay et al. 2024 — FLAMINGO $T_y$ HSE bias (*Hydrostatic Bias*)
+- Remazeilles et al. 2025 — Planck $`\langle T_e\rangle\simeq 5\,\mathrm{keV}`$ [arXiv:2410.02488](https://arxiv.org/abs/2410.02488)
+- **Coulton et al. 2026**, PRD — ACT+Planck $`\langle T_e\rangle=8.5\pm 2.4\,\mathrm{keV}`$ [arXiv:2410.19046](https://arxiv.org/abs/2410.19046)
+- Kay et al. 2024 — FLAMINGO $`T_y`$ HSE bias (*Hydrostatic Bias*)
 
 ## Polarised SZ
 - Kamionkowski & Loeb 1997
 - Sazonov & Sunyaev 1999
 - Hall & Challinor 2014 [arXiv:1407.5135](https://arxiv.org/abs/1407.5135)
-- Meyers et al. 2018 — EoR $\tau$ from pSZ
+- Meyers et al. 2018 — EoR $`\tau`$ from pSZ
 - Deutsch / Johnson / Münchmeyer — pSZ tomography
 - kpSZ JCAP 2022
 - Remote-quadrupole constraints [arXiv:2607.16071](https://arxiv.org/abs/2607.16071) — **no detection**
@@ -84,7 +84,7 @@ Not exhaustive. Landmark and 2019–2026 papers that define each probe. Topic no
 
 ## WHIM / CGM / filaments
 - Planck LBG tSZ stacks
-- **Tanimura et al. 2019** — LRG-pair filaments **$5.3\sigma$**
+- **Tanimura et al. 2019** — LRG-pair filaments **$`5.3\sigma`$**
 - de Graaff et al. 2019
 - Amodeo/Schaan ACT+BOSS CGM
 - McCarthy et al. 2024 — FLAMINGO kSZ + tSZ–WL [arXiv:2410.19905](https://arxiv.org/abs/2410.19905)
@@ -92,7 +92,7 @@ Not exhaustive. Landmark and 2019–2026 papers that define each probe. Topic no
 ## Patchy reionization kSZ
 - Gruzinov & Hu; McQuinn et al.; Zahn et al.; Battaglia et al.
 - Smith & Ferraro — 4-point
-- Reichardt et al. 2021 — SPT high-$\ell$ kSZ
+- Reichardt et al. 2021 — SPT high-$`\ell`$ kSZ
 
 ## Resolved imaging
 - Pointecouteau / Komatsu RX J1347
@@ -109,7 +109,7 @@ Not exhaustive. Landmark and 2019–2026 papers that define each probe. Topic no
 - NIKA2, MUSTANG-2, ALMA/ACA, TolTEC
 - Simons Observatory, CMB-S4, CMB-HD
 - AtLAST SZ science [arXiv:2403.00909](https://arxiv.org/abs/2403.00909)
-- LiteBIRD (rSZ / all-sky $y$, polarisation)
+- LiteBIRD (rSZ / all-sky $`y`$, polarisation)
 
 ## Your existing topic notes
 *The Physics of tSZ* · *Compton Y parameter and self-similarity* · *The Universal Pressure Profile and A10* · *Pressure Profiles and tSZ PS* · *Cluster Number Counts* · *Hydrostatic Bias* · *FLAMINGO Overview* · *Other tSZ Papers* · *Paper Index*
