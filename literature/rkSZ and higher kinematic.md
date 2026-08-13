@@ -37,9 +37,9 @@ A bulk boost of a blackbody:
 $`\Delta T/T\sim -\beta\mu+\beta^2(\mu^2-1/2)+\cdots`$.
 
 Hoey+2026:
-$$
+```math
 \frac{\beta^2}{3}\left[\hat{\mathcal{D}}_{\nu}+P_2(\mu)\left(\frac{12}{5}\hat{\mathcal{O}}_{\nu}+\frac{11}{10}\hat{\mathcal{D}}_{\nu}\right)\right].
-$$
+```
 The monopole piece looks Kompaneets-like (can leak into tSZ/rSZ at the null). The quadrupole is a distinct anisotropy.
 
 Nozawa+1998 already argued $`\mathcal{O}(\beta^2)`$ is “very small and can be safely neglected” for typical clusters. Forecasts: Lee/Chluba-style and [Forecasts and Simulations for Relativistic Corrections (arXiv:2504.18637)](https://arxiv.org/abs/2504.18637).
