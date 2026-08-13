@@ -49,6 +49,15 @@ Not exhaustive. Landmark and 2019–2026 papers that define each probe. Topic no
 - SPT-3G+SPIRE full-shape $`C_\ell^{yy}`$ $`9.3\sigma`$ [arXiv:2602.10107](https://arxiv.org/abs/2602.10107)
 - Bolliet et al. 2025 — CLASS_SZ II [arXiv:2507.07346](https://arxiv.org/abs/2507.07346)
 - Arnaud et al. 2010 — universal GNFW (*The Universal Pressure Profile and A10*)
+- **Battaglia et al. 2012** — AGN-feedback pressure profile (halo-model $`C_\ell^{yy}`$)
+
+## Global Compton $`y`$ / spectral distortions
+- **Fixsen et al. 1996** — FIRAS $`|\langle y\rangle|<1.5\times 10^{-5}`$ (95% CL)
+- **Hill, Battaglia, Chluba, Ferraro, Schaan & Spergel 2015**, PRL — [arXiv:1507.01583](https://arxiv.org/abs/1507.01583) — $`\langle y\rangle\sim 1.8\times 10^{-6}`$ from ICM+IGM+reion
+- Abitbol, Chluba, Hill & Johnson 2017 — PIXIE forecasts with foregrounds
+- PIXIE design [arXiv:2405.20403](https://arxiv.org/abs/2405.20403)
+- Fabbian, Bianchini, Sabyr, Hill et al. 2026 — FIRAS reanalysis $`\langle y\rangle=(1.2\pm 2.0)\times 10^{-6}`$ [arXiv:2512.03038](https://arxiv.org/abs/2512.03038); method [arXiv:2508.04593](https://arxiv.org/abs/2508.04593)
+- [Global Compton y and spectral distortions](literature/Global%20Compton%20y%20and%20spectral%20distortions.md)
 
 ## kSZ
 - **Hand et al. 2012**, PRL — first pairwise kSZ (ACT+SDSS) ([kSZ literature](literature/kSZ%20literature.md))
@@ -56,7 +65,11 @@ Not exhaustive. Landmark and 2019–2026 papers that define each probe. Topic no
 - Hu 2000; Zhang, Pen & Trac 2004 — nonlinear late-time kSZ
 - Planck pairwise / $`v`$–$`T`$ correlation
 - Soergel et al. — DES+SPT pairwise
-- Schaan, Amodeo, Calafut, Battaglia, … — ACT+BOSS stacks (CGM)
+- **Hill, Ferraro et al. 2016**, PRL — projected-field kSZ Planck+WISE $`3.8`$–$`4.5\sigma`$
+- Ferraro et al. 2016 — projected-field II
+- Schaan et al. 2021; Amodeo et al. 2021 — ACT+BOSS CGM $`n_e`$ and $`P_e`$
+- Kashlinsky et al. 2008, 2010 — claimed Gpc “dark flow” (not confirmed)
+- **Planck Collaboration Int. XIII 2014** — cluster bulk flow $`<254\,\mathrm{km\,s^{-1}}`$ (95% CL)
 - **Sayers et al. 2013** — MACS J0717 Bolocam $`4.2\sigma`$
 - **Adam et al. 2017** — NIKA resolved kSZ map
 - **Hadzhiyska et al. 2025** — ACT+DESI $`13\sigma`$ stacked kSZ, strong feedback
@@ -75,13 +88,19 @@ Not exhaustive. Landmark and 2019–2026 papers that define each probe. Topic no
 - Silk & White; Birkinshaw; Reese+2002; Bonamente+2006 — SZ + X-ray angular diameter distance
 
 ## $`T_{\mathrm{CMB}}(z)`$ — adiabatic expansion test
-- Battistelli+2002; de Petris+2007; **Luzzi+2009**; Hurier+2014; Khatri & Sunyaev 2012 ([SZ cosmology observables](literature/SZ%20cosmology%20observables.md))
+- Fabbri+1978; Rephaeli 1980 — method
+- Battistelli+2002; de Petris+2007; **Luzzi+2009**; Saro+2014; **Hurier+2014**; Luzzi+2015; de Martino+2015
+- **Li et al. 2021**, ApJ — ACT 370 clusters, $`\alpha=-0.001\pm 0.012`$ combined
+- Khatri & Sunyaev 2012 ([SZ cosmology observables](literature/SZ%20cosmology%20observables.md))
+
+## Moving lens (gravitational; not Compton SZ)
+- Birkinshaw & Gull 1983
+- Hotinli et al. 2019, PRL 123, 061301
+- Hotinli, Smith, Madhavacheril & Kamionkowski 2021
+- **First claimed detection:** ACT DR6 × DESI LS [arXiv:2605.18938](https://arxiv.org/abs/2605.18938) — $`4.8\sigma`$ extended sample
 
 ## SZ–CIB correlation / foregrounds
 - Addison+2012; Dolag et al.; Manz et al.; Planck XXX
-
-## Moving lens (transverse velocity)
-- Molnar & Birkinshaw 2003; Biernacka 2014 ([rkSZ and higher kinematic](literature/rkSZ%20and%20higher%20kinematic.md))
 
 ## Polarised SZ
 - Kamionkowski & Loeb 1997
@@ -92,16 +111,27 @@ Not exhaustive. Landmark and 2019–2026 papers that define each probe. Topic no
 - kpSZ JCAP 2022
 - Remote-quadrupole constraints [arXiv:2607.16071](https://arxiv.org/abs/2607.16071) — **no detection**
 
-## Non-thermal / cavities
+## Non-thermal / anisotropic electrons
 - Enßlin & Kaiser 2000; Colafrancesco et al. 2003
 - Abdulla et al. 2018; Lacy et al. 2019
+- **Lee & Chluba 2024**, JCAP — anisotropic kernels + high-energy $`f(p)`$ [arXiv:2403.18530](https://arxiv.org/abs/2403.18530)
+- Lee, Chluba & Holder 2022 — radio SZ
 
 ## WHIM / CGM / filaments
 - Planck LBG tSZ stacks
 - **Tanimura et al. 2019** — LRG-pair filaments **$`5.3\sigma`$**
 - de Graaff et al. 2019
+- Hincks et al. 2022 — A399–A401 ACT+MUSTANG-2 $`>5\sigma`$
+- Gill et al. 2026 — A399–A401 multifrequency, filament $`\tau`$ **$`8.5\sigma`$** [arXiv:2510.18153](https://arxiv.org/abs/2510.18153)
+- tSZ+lensing filament stack **$`7.8\sigma`$** [arXiv:2507.08561](https://arxiv.org/abs/2507.08561)
+- Zhang et al. 2024 — eROSITA eRASS:4 X-ray filaments $`9.0\sigma`$ (same gas, not SZ)
 - Amodeo/Schaan ACT+BOSS CGM
 - McCarthy et al. 2024 — FLAMINGO kSZ + tSZ–WL [arXiv:2410.19905](https://arxiv.org/abs/2410.19905)
+
+## Proto-clusters
+- Di Mascolo et al. 2023, Nature — Spiderweb $`z=2.16`$, $`\sim 6\sigma`$ [arXiv:2303.16226](https://arxiv.org/abs/2303.16226)
+- Gobat et al. 2019; Mantz et al. 2018
+- Zhou, Chapman, Di Mascolo et al. — SPT2349−56 $`z=4.3`$, $`8.4\sigma`$ [arXiv:2509.03912](https://arxiv.org/abs/2509.03912) / Nature
 
 ## Patchy reionization kSZ
 - Gruzinov & Hu; McQuinn et al.; Zahn et al.; Battaglia et al.
@@ -113,6 +143,7 @@ Not exhaustive. Landmark and 2019–2026 papers that define each probe. Topic no
 - Kitayama et al. 2016; Ueda et al. 2018 — ALMA RX J1347
 - Basu et al. 2016 — ALMA El Gordo shock
 - PITSZI 2025 — turbulence, MACS J0717 [A&A](https://doi.org/10.1051/0004-6361/202452342)
+- NIKA2 LPSZ — 38 clusters, $`0.5<z<0.9`$ (Mayet, Hanser, …)
 
 ## Simulations (SZ-relevant)
 - BAHAMAS (McCarthy)

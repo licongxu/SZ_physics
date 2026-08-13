@@ -68,14 +68,16 @@ tSZ + X-ray → angular diameter distance (Silk & White; Birkinshaw; Reese+2002;
 
 ## $`T_{\mathrm{CMB}}(z)`$ — testing adiabatic expansion
 
-The tSZ/kSZ spectral shape fixes the CMB temperature *at the cluster redshift*, giving a direct, model-independent test of $`T(z)=T_0(1+z)`$ from adiabatic expansion. Unlike distances, this needs no cosmological model.
+The tSZ/kSZ spectral shape fixes the CMB temperature *at the cluster redshift*, giving a direct, model-independent test of $`T(z)=T_0(1+z)`$ from adiabatic expansion. Unlike distances, this needs no cosmological model. Proposed by Fabbri et al. (1978) and Rephaeli (1980). Parametrize deviations as $`T(z)=T_0(1+z)^{1-\alpha}`$ (sometimes $`\beta`$ for the same exponent).
 
-- Battistelli et al. (2002); de Petris et al. (2007) — early measurements
-- Luzzi et al. (2009, ApJ) — 7 clusters, consistent with $`T\propto(1+z)`$
-- Hurier et al. (2014) — combined tSZ + X-ray + kSZ, percent-level
-- Khatri & Sunyaev (2012) — rSZ as a thermometer (relativistic corrections encode $`T_e`$ vs $`T_{\mathrm{CMB}}`$)
+- Battistelli et al. (2002); de Petris et al. (2007); Luzzi et al. (2009)
+- **Saro et al. (2014)** — SPT clusters
+- **Hurier et al. (2014)** — Planck, $`\beta=0.009\pm 0.017`$
+- Luzzi et al. (2015); de Martino et al. (2015)
+- **Li et al. (2021)**, ApJ — ACT, 370 clusters $`0.07<z<1.4`$, $`\alpha=0.017^{+0.029}_{-0.032}`$; combined with independent data $`\alpha=-0.001\pm 0.012`$
+- Khatri & Sunyaev (2012) — rSZ as a thermometer ($`T_e`$ vs $`T_{\mathrm{CMB}}`$), a related but different use of the spectrum
 
-This is one of the few **direct** cosmological tests from the SZ spectral shape, distinct from cluster counts and $`C_\ell^{yy}`$.
+All published SZ $`T(z)`$ constraints are consistent with adiabatic expansion ($`\alpha=0`$).
 
 ---
 
@@ -90,6 +92,16 @@ The cosmic infrared background is the dominant contaminant for tSZ cosmology. Th
 | Cross | What it weights |
 | --- | --- |
 | $`y\times`$ CIB | dusty star-forming halos; dominant tSZ systematic |
+
+---
+
+## Moving lens — transverse velocity, **not Compton**
+
+A gravitational potential moving across the line of sight produces a time-varying Weyl potential. CMB photons traversing it pick up a temperature dipole $`\propto \nabla_\perp\Psi\cdot v_\perp`$ (Birkinshaw & Gull 1983; Aghanim, de Luca, Bouchet, Gispert & Silk; Hotinli et al. 2019, PRL 123, 061301). In the lens rest frame this is lensing of the CMB kinematic dipole.
+
+This is **not** the Compton $`\beta^2`$ quadrupole (that *is* Thomson scattering; see [rkSZ and higher kinematic](rkSZ%20and%20higher%20kinematic.md)). It is a nonlinear ISW / moving-lens secondary. Science case: $`v_\perp`$ without the kSZ $`\tau`$–$`v`$ degeneracy (Hotinli, Smith, Madhavacheril & Kamionkowski 2021).
+
+**Status:** [arXiv:2605.18938](https://arxiv.org/abs/2605.18938) (2026 preprint) reports the **first detection** with ACT DR6 × DESI Legacy Imaging Surveys: $`b_{\mathrm{ML}}=1.24\pm 0.26`$ (**$`4.8\sigma`$**) on the extended LRG sample in the NILC map ($`3.7\sigma`$ on the main sample). Treat as a preprint until journal refereeing is complete; CIB/tSZ dipoles aligned with $`v_\perp`$ remain the main systematic (Beheshti, Schaan & Kosowsky; Hotinli & Pierpaoli).
 
 ---
 

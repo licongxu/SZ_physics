@@ -52,7 +52,7 @@ Each $`(m,k)`$ term is one named SZ effect, and each maps onto a line-of-sight m
 
 ## 1. Only one process: Thomson scattering
 
-A CMB photon $`(\nu_i,\hat{\mathbf{n}}_i)`$ hits an electron with velocity $`\mathbf{\beta}_e=\mathbf{v}_e/c`$.
+A CMB photon $`(\nu_i,\hat{\mathbf{n}}_i)`$ hits an electron with velocity $`\boldsymbol{\beta}_e=\mathbf{v}_e/c`$.
 
 For cluster SZ,
 ```math
@@ -88,17 +88,17 @@ The two Lorentz boosts Doppler-redistribute frequency.
 
 Lorentz transform into the electron frame:
 ```math
-\nu'_i=\gamma_e\nu_i\bigl(1-\mathbf{\beta}_e\cdot\hat{\mathbf{n}}_i\bigr).
+\nu'_i=\gamma_e\nu_i\bigl(1-\boldsymbol{\beta}_e\cdot\hat{\mathbf{n}}_i\bigr).
 ```
 Thomson scatter: $`\nu'_f=\nu'_i`$. Boost back:
 ```math
-\nu_f=\frac{\nu'_f}{\gamma_e\bigl(1-\mathbf{\beta}_e\cdot\hat{\mathbf{n}}_f\bigr)}.
+\nu_f=\frac{\nu'_f}{\gamma_e\bigl(1-\boldsymbol{\beta}_e\cdot\hat{\mathbf{n}}_f\bigr)}.
 ```
 Therefore
 ```math
 \frac{\nu_f}{\nu_i}
 =
-\frac{1-\mathbf{\beta}_e\cdot\hat{\mathbf{n}}_i}{1-\mathbf{\beta}_e\cdot\hat{\mathbf{n}}_f}.
+\frac{1-\boldsymbol{\beta}_e\cdot\hat{\mathbf{n}}_i}{1-\boldsymbol{\beta}_e\cdot\hat{\mathbf{n}}_f}.
 ```
 This one ratio already contains **every** SZ effect. (Aberration of $`\hat{\mathbf{n}}_i,\hat{\mathbf{n}}_f`$ is implicit: the scattering angle that enters the Thomson kernel is the electron-frame angle.)
 
@@ -106,7 +106,7 @@ Define the logarithmic shift
 ```math
 s\equiv\ln\frac{\nu_f}{\nu_i}
 =
-\ln\frac{1-\mathbf{\beta}_e\cdot\hat{\mathbf{n}}_i}{1-\mathbf{\beta}_e\cdot\hat{\mathbf{n}}_f}.
+\ln\frac{1-\boldsymbol{\beta}_e\cdot\hat{\mathbf{n}}_i}{1-\boldsymbol{\beta}_e\cdot\hat{\mathbf{n}}_f}.
 ```
 Expanding in electron speed,
 ```math
@@ -125,7 +125,7 @@ x\equiv\frac{h\nu}{k_B T_{\mathrm{CMB}}}.
 ```
 This is the **mean number of photons per mode** (one frequency, one direction, one polarisation), not a number density. Intensity is the same information: $`I_{\nu}=(2h\nu^{3}/c^{2})n`$. We use $`n`$ because it is Lorentz invariant, so the collision term is just photons entering/leaving a mode.
 
-Averaging over scattering angles and the electron velocity distribution defines a frequency-redistribution kernel $`P(s;\theta_e,\mathbf{\beta},\hat{\mathbf{n}})`$. In the optically thin, single-scattering limit,
+Averaging over scattering angles and the electron velocity distribution defines a frequency-redistribution kernel $`P(s;\theta_e,\boldsymbol{\beta},\hat{\mathbf{n}})`$. In the optically thin, single-scattering limit,
 ```math
 \Delta n(x,\hat{\mathbf{n}})
 =
@@ -185,7 +185,7 @@ Two small parameters:
 ```math
 \theta_e\equiv\frac{k_B T_e}{m_e c^2},
 \qquad
-\mathbf{\beta}\equiv\frac{\mathbf{v}_{\mathrm{bulk}}}{c}.
+\boldsymbol{\beta}\equiv\frac{\mathbf{v}_{\mathrm{bulk}}}{c}.
 ```
 For Maxwellian electrons,
 ```math
@@ -218,7 +218,7 @@ So the first non-vanishing **thermal** term is $`\mathcal{O}(\theta_e)`$, not $`
 =
 \tau\sum_{m,k}\beta^{m}\theta_e^{k}\,\mathcal{S}_{mk}(x,\mu),
 \qquad
-\mu=\hat{\mathbf{\beta}}\cdot\hat{\mathbf{n}}.
+\mu=\hat{\boldsymbol{\beta}}\cdot\hat{\mathbf{n}}.
 ```
 
 | Order             | Effect                            | Gas moment                |
@@ -384,7 +384,7 @@ Since
 =
 \frac{xe^{x}}{(e^{x}-1)^{2}},
 ```
-this is a pure blackbody temperature shift. With the convention that $`\mu`$ is the cosine between $`\mathbf{\beta}`$ and the photon direction, and $`v_{\parallel}>0`$ **away from the observer**,
+this is a pure blackbody temperature shift. With the convention that $`\mu`$ is the cosine between $`\boldsymbol{\beta}`$ and the photon direction, and $`v_{\parallel}>0`$ **away from the observer**,
 ```math
 \frac{\Delta T}{T_{\mathrm{CMB}}}
 =
@@ -557,7 +557,7 @@ Hoey, Long & Chluba (2026), Eq. (3.12), for single scattering of an unpolarized 
 \Delta n
 =
 \tau\,
-\hat{\mathcal{S}}_{\mathrm{SZ}}(\nu,\hat{\mathbf{\gamma}},\theta_e,\mathbf{\beta}_{\mathrm{p}})\,
+\hat{\mathcal{S}}_{\mathrm{SZ}}(\nu,\hat{\boldsymbol{\gamma}},\theta_e,\boldsymbol{\beta}_{\mathrm{p}})\,
 n^{\mathrm{Pl}},
 ```
 with Legendre decomposition
@@ -565,7 +565,7 @@ with Legendre decomposition
 \hat{\mathcal{S}}_{\mathrm{SZ}}
 =
 \sum_{\ell=0}^{\infty}
-P_{\ell}(\hat{\mathbf{\gamma}}\cdot\hat{\mathbf{\beta}}_{\mathrm{p}})\,
+P_{\ell}(\hat{\boldsymbol{\gamma}}\cdot\hat{\boldsymbol{\beta}}_{\mathrm{p}})\,
 \hat{\mathcal{S}}_{\ell}(\nu,\theta_e,\beta_{\mathrm{p}})
 ```
 and
@@ -688,9 +688,11 @@ Keep these in view while reviewing the derivation.
 2. **Thomson limit.** Recoil $`\propto h\nu/m_e c^2`$ is dropped. That is excellent for CMB photons; it is not a statement about electron relativity.
 3. **Unpolarized incoming radiation** in the Hoey (2026) all-orders formula. Polarization is an extension, not a different collision term.
 4. **Lab frame = CMB rest frame.** Observer motion (Chluba, Hütsi & Sunyaev 2005) is another boost.
-5. **Maxwellian electrons** in the cloud frame. Non-thermal tails change the thermal operators $`\hat{\mathcal{S}}^{\mathrm{th}}_{\ell}`$.
+5. **Maxwellian electrons** in the cloud frame. Non-thermal tails change the thermal operators $`\hat{\mathcal{S}}^{\mathrm{th}}_{\ell}`$. Anisotropic $`f_e`$ (jets, magnetic fields) is a separate kernel (Lee & Chluba 2024), not a $`(\theta_e,\beta)`$ cell.
 6. **Constant $`\beta_{\mathrm{p}}`$ along the LOS** in the operator derivation. Spatially varying velocity is restored by integrating $`\mathcal{M}_{m\ell}^{(k)}`$ along the ray.
 7. **$`\theta_e`$ series is asymptotic.** High-$`x`$ / high-$`T_e`$ needs the exact operator or SZpack, not a truncated $`Y_k`$.
+8. **Maps vs monopole.** Cluster $`y`$-maps are zero-mean anisotropies. The sky-averaged $`\langle y\rangle`$ is the same operator but needs absolute spectrophotometry (FIRAS / PIXIE); see [Global Compton y and spectral distortions](literature/Global%20Compton%20y%20and%20spectral%20distortions.md).
+9. **Moving lens is not SZ.** Transverse-velocity dipoles from $`\nabla_\perp\Psi\cdot v_\perp`$ are gravitational (Birkinshaw & Gull 1983), not Compton. Do not file them under $`\beta^2`$-SZ.
 
 ---
 

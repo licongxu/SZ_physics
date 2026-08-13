@@ -50,6 +50,7 @@ flowchart LR
 - [WHIM CGM and cosmic web](literature/WHIM%20CGM%20and%20cosmic%20web.md)
 - [Resolved SZ astrophysics](literature/Resolved%20SZ%20astrophysics.md)
 - [SZ cosmology observables](literature/SZ%20cosmology%20observables.md)
+- [Global Compton y and spectral distortions](literature/Global%20Compton%20y%20and%20spectral%20distortions.md)
 
 ## Detection snapshot (mid-2026)
 

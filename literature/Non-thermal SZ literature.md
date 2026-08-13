@@ -28,7 +28,8 @@ Also discussed: annihilating DM electrons (Colafrancesco 2004) — speculative.
 
 ## What people have done
 
-- **Theory:** Compton kernel for power-law electrons; multi-component (thermal + non-thermal) fits.
+- **Theory:** Compton kernel for power-law electrons; multi-component (thermal + non-thermal) fits. **Lee & Chluba (2024)**, JCAP 07, 040 ([arXiv:2403.18530](https://arxiv.org/abs/2403.18530)) — anisotropic scattering kernels (spherical-harmonic decomposition of $`f_e`$ and $`n_\gamma`$) plus high-energy tails; kinematic corrections to $`\tau`$; **SZpack 2.0**. This is the systematic treatment of *electron anisotropy* (jets, magnetic-field-aligned $`f(p)`$), which the Maxwellian $`(\theta_e,\beta)`$ table does not cover.
+- **Radio SZ** (Lee, Chluba & Holder 2022, MNRAS): Compton scattering of an *extragalactic radio background*, not the CMB. Same operator, different incident spectrum. Forecast-level.
 - **Targets:** MS0735.6+7421, Hydra A, and other giant AGN cavities; radio relics.
 - **Abdulla et al. (2018), Lacy et al. (2019):** SZ imaging of cavities / feedback; pressure in bubbles. Interpretation as *ntSZ spectrum* is not unique (geometry, thermal under-pressure, and CIB all conspire).
 - **Simulations:** cosmic-ray MHD + mock SZ, still rare compared with thermal mocks.
