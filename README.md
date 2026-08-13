@@ -2,7 +2,22 @@
 
 Obsidian notes on the Sunyaev–Zeldovich effect as one Compton/Thomson operator expanded in electron temperature $`\theta_e`$ and bulk velocity $`\beta`$.
 
-GitHub does not render Obsidian **canvas** (`.canvas`) or the **graph view** (关系图谱). This README is the online stand-in: mermaid maps plus ordinary markdown links. In Obsidian, open `SZ Periodic Table.canvas` and the local graph as usual.
+GitHub does not render Obsidian **canvas** (`.canvas`) or the **graph view** (关系图谱). This README is the online stand-in: mermaid maps plus ordinary markdown links.
+
+**Branches** (do not merge them; math delimiters are different on purpose):
+
+| Branch | Use |
+| --- | --- |
+| `main` (this one, GitHub default) | Website rendering: inline `$`...`$`, display fenced as ` ```math ` |
+| [`obsidian`](https://github.com/licongxu/SZ_physics/tree/obsidian) | Local vault: `$...$` and `$$...$$` |
+
+```bash
+git clone https://github.com/licongxu/SZ_physics.git
+cd SZ_physics
+git checkout obsidian
+```
+
+Then open this folder as an Obsidian vault. Daily edits belong on `obsidian`; update `main` separately when you want GitHub math to stay in sync.
 
 **Start:** [SZ Literature Map](SZ%20Literature%20Map.md) · [Unified SZ Derivation](Unified%20SZ%20Derivation.md) · [SZ Paper Index](SZ%20Paper%20Index.md) · [Periodic table](SZ%20Periodic%20Table.md)
 
@@ -79,4 +94,4 @@ flowchart TB
 3. Probe notes in `literature/`.
 4. [Mroczkowski et al. 2019](https://arxiv.org/abs/1811.02310) as the review backbone.
 
-Obsidian users: clone the repo and open this folder as a vault. The `.canvas` file and wikilink graph still work locally; markdown links are used so GitHub can follow the same edges.
+Obsidian users: checkout the [`obsidian`](https://github.com/licongxu/SZ_physics/tree/obsidian) branch, then open this folder as a vault. The `.canvas` file and graph still work locally. This `main` branch is only for GitHub math.
