@@ -24,6 +24,20 @@ Relativistic corrections to this term are [rkSZ and higher kinematic](rkSZ%20and
 
 ---
 
+## The kSZ power spectrum — three components
+
+The late-time kSZ signal is not one thing. The total kSZ power spectrum is canonically split into three physically distinct contributions:
+
+| Component | Physics | Era | $`\ell`$ |
+| --- | --- | --- | --- |
+| **Ostriker–Vishniac (OV)** | linear velocity field integrated over ionized gas | post-recombination, $`z\lesssim 10`$ | smooth, peaks $`\ell\sim 1000`$–$`3000`$ |
+| **Patchy reionization kSZ** | ionized bubbles growing into neutral IGM | EoR, $`z\sim 6`$–$`10`$ | bump at $`\ell\sim 2000`$–$`4000`$ |
+| **Late-time (nonlinear) kSZ** | nonlinear peculiar velocities in $`z\lesssim 2`$ halos / filaments | low $`z`$ | broad, non-Gaussian |
+
+Ostriker & Vishniac (1986); Vishniac (1987) computed the linear OV term. The split matters because high-$`\ell`$ kSZ power is *detected* as a residual, but attributing it between OV + late-time (both $`z<10`$) and patchy reionization ($`z\sim 6`$–$`10`$) is **prior-dependent** — see [Patchy kSZ and reionization](Patchy%20kSZ%20and%20reionization.md). The OV effect is the linear-theory floor that any reionization model sits on top of.
+
+---
+
 ## What people have done
 
 Four estimator families (all still in use):
@@ -47,6 +61,11 @@ Plus **resolved** kSZ in mergers: only **MACS J0717.5+3745** (Mroczkowski+2012 h
 - **Pairwise DESI DR1 + ACT DR6 + Planck (2025)**: **$`9.3\sigma`$**, 913k LRGs — highest-significance *pairwise* kSZ
 - ACT DR6 kSZ velocity reconstruction × BOSS $`v`$: **$`3.8\sigma`$** (JCAP 2025)
 - DESI DR2 + ACT DR6 precision kSZ vs mass and $`z`$ (2026, arXiv:2604.19744)
+
+### Theory of the kSZ power spectrum
+- Ostriker & Vishniac (1986); Vishniac (1987) — **OV effect**, the linear post-recombination contribution
+- Hu (2000); Zhang, Pen, Trac (2004) — nonlinear late-time kSZ
+- McQuinn, Zahn, Battaglia, Park, Gorce — patchy reionization kSZ (see [Patchy kSZ and reionization](Patchy%20kSZ%20and%20reionization.md))
 
 ### Science targets
 - **Missing baryons / CGM** — kSZ traces all ionized gas, not only $`T_e\gtrsim 1\,\mathrm{keV}`$

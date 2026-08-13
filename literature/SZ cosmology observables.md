@@ -66,6 +66,33 @@ tSZ + X-ray → angular diameter distance (Silk & White; Birkinshaw; Reese+2002;
 
 ---
 
+## $`T_{\mathrm{CMB}}(z)`$ — testing adiabatic expansion
+
+The tSZ/kSZ spectral shape fixes the CMB temperature *at the cluster redshift*, giving a direct, model-independent test of $`T(z)=T_0(1+z)`$ from adiabatic expansion. Unlike distances, this needs no cosmological model.
+
+- Battistelli et al. (2002); de Petris et al. (2007) — early measurements
+- Luzzi et al. (2009, ApJ) — 7 clusters, consistent with $`T\propto(1+z)`$
+- Hurier et al. (2014) — combined tSZ + X-ray + kSZ, percent-level
+- Khatri & Sunyaev (2012) — rSZ as a thermometer (relativistic corrections encode $`T_e`$ vs $`T_{\mathrm{CMB}}`$)
+
+This is one of the few **direct** cosmological tests from the SZ spectral shape, distinct from cluster counts and $`C_\ell^{yy}`$.
+
+---
+
+## Foregrounds: SZ–CIB correlation
+
+The cosmic infrared background is the dominant contaminant for tSZ cosmology. The $`y\times\mathrm{CIB}`$ correlation is positive and biases $`C_\ell^{yy}`$ and $`Y`$–$`M`$ if not modelled.
+
+- Planck XXX; Addison et al. (2012); Dolag et al.; Manz et al.
+- Mitigation: multi-frequency ILC / constrained ILC, CIB deprojection, cross-frequency cleaning
+- The correlation is itself physical (same halos host hot gas and dusty star formation), so it cannot be fully removed — only modelled
+
+| Cross | What it weights |
+| --- | --- |
+| $`y\times`$ CIB | dusty star-forming halos; dominant tSZ systematic |
+
+---
+
 ## Open cosmology questions
 Is the tSZ $`S_8`$ problem **feedback** or **cosmology**? kSZ feedback vs tSZ $`C_\ell`$ vs WL baryon suppression — one consistent $`f_{\mathrm{gas}}(M)`$? Does rSZ bias $`Y`$ enough to matter for CNC?
 
